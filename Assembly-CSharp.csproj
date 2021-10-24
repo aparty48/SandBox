@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{794C352D-AE29-CD68-340F-08D5C4129C5C}</ProjectGuid>
+    <ProjectGuid>{E9CFE341-6E3F-2310-0882-712BFAC4CF37}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -960,19 +960,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NativeCollections.csproj">
-      <Project>{5A0374B0-1738-44BC-36C6-37EACF121DE1}</Project>
+      <Project>{B6F85952-3CA1-6373-8E02-0E9E5FEE27A8}</Project>
       <Name>NativeCollections</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{6438B5E5-4737-14CB-9854-AF8EA6EB1CB3}</Project>
+      <Project>{DCE39D34-209F-2B9D-E71D-27CC7549355B}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unsafe.csproj">
-      <Project>{84625AE8-4229-18C7-35EA-A72F8AFAB7F1}</Project>
+      <Project>{25AF9575-C46F-3A3A-FFCC-20CAFD8AA964}</Project>
       <Name>Unsafe</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{AA4F2A73-4FC5-027B-F3FB-EEEC76E78D72}</Project>
+      <Project>{E28D507D-EE56-E132-7928-16283F7CCED3}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{84625AE8-4229-18C7-35EA-A72F8AFAB7F1}</ProjectGuid>
+    <ProjectGuid>{25AF9575-C46F-3A3A-FFCC-20CAFD8AA964}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unsafe</AssemblyName>

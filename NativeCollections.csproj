@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5A0374B0-1738-44BC-36C6-37EACF121DE1}</ProjectGuid>
+    <ProjectGuid>{B6F85952-3CA1-6373-8E02-0E9E5FEE27A8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>NativeCollections</AssemblyName>

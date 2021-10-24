@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7FBD9B1C-CB30-553D-203A-0F4BE7E65F8D}</ProjectGuid>
+    <ProjectGuid>{B6E433FF-FD41-3EF4-4042-E9C38762196E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Tests</AssemblyName>
@@ -669,7 +669,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NativeCollections.csproj">
-      <Project>{5A0374B0-1738-44BC-36C6-37EACF121DE1}</Project>
+      <Project>{B6F85952-3CA1-6373-8E02-0E9E5FEE27A8}</Project>
       <Name>NativeCollections</Name>
     </ProjectReference>
   </ItemGroup>
