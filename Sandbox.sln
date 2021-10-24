@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{794C352D-AE29-CD68-340F-08D5C4129C5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeCollections", "NativeCollections.csproj", "{5A0374B0-1738-44BC-36C6-37EACF121DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponents", "NavMeshComponents.csproj", "{AA4F2A73-4FC5-027B-F3FB-EEEC76E78D72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unsafe", "Unsafe.csproj", "{84625AE8-4229-18C7-35EA-A72F8AFAB7F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{24DE0BF4-F8D1-F757-E71D-E5E90E60A6C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsEditor", "NavMeshComponentsEditor.csproj", "{6438B5E5-4737-14CB-9854-AF8EA6EB1CB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests.csproj", "{7FBD9B1C-CB30-553D-203A-0F4BE7E65F8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{794C352D-AE29-CD68-340F-08D5C4129C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794C352D-AE29-CD68-340F-08D5C4129C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794C352D-AE29-CD68-340F-08D5C4129C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794C352D-AE29-CD68-340F-08D5C4129C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0374B0-1738-44BC-36C6-37EACF121DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0374B0-1738-44BC-36C6-37EACF121DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0374B0-1738-44BC-36C6-37EACF121DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0374B0-1738-44BC-36C6-37EACF121DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4F2A73-4FC5-027B-F3FB-EEEC76E78D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4F2A73-4FC5-027B-F3FB-EEEC76E78D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4F2A73-4FC5-027B-F3FB-EEEC76E78D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4F2A73-4FC5-027B-F3FB-EEEC76E78D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84625AE8-4229-18C7-35EA-A72F8AFAB7F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84625AE8-4229-18C7-35EA-A72F8AFAB7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84625AE8-4229-18C7-35EA-A72F8AFAB7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84625AE8-4229-18C7-35EA-A72F8AFAB7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24DE0BF4-F8D1-F757-E71D-E5E90E60A6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DE0BF4-F8D1-F757-E71D-E5E90E60A6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DE0BF4-F8D1-F757-E71D-E5E90E60A6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24DE0BF4-F8D1-F757-E71D-E5E90E60A6C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6438B5E5-4737-14CB-9854-AF8EA6EB1CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6438B5E5-4737-14CB-9854-AF8EA6EB1CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6438B5E5-4737-14CB-9854-AF8EA6EB1CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6438B5E5-4737-14CB-9854-AF8EA6EB1CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FBD9B1C-CB30-553D-203A-0F4BE7E65F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FBD9B1C-CB30-553D-203A-0F4BE7E65F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FBD9B1C-CB30-553D-203A-0F4BE7E65F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FBD9B1C-CB30-553D-203A-0F4BE7E65F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
