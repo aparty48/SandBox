@@ -35,7 +35,7 @@ public class UIScript : MonoBehaviour{
     public Canvas Enventar;//канвас инвентаря
     public Canvas PadC;
 
-    public bool MobileD;//деваис андроид
+    public bool MobileD;//деваис андроид vg
     public bool PcD;//девайс пк
     public bool isServer;
 
@@ -46,6 +46,7 @@ public class UIScript : MonoBehaviour{
     public float speedObj;//переменая для ограничения скорости
     public GameObject player;//игрок обект
     private Rigidbody _rb;//rigidbody игрока
+    private RigidbodyConstraints rbc;
     public Camera manCam;//камера игрока
     private CapsuleCollider _collider;//player colader
     private float horizontal=0f;//значение от -1 до 1
@@ -55,9 +56,10 @@ public class UIScript : MonoBehaviour{
     public bool tsb = false;//если любая кнопка нажата но не отпущена на андроед
     public bool jumpVelocity = false;
     public float jumpForse = 0;
-    public bool pechataet = false;
     float nsp;
     public bool flye = false;
+    private float yVecSpeed;
+
 
     public bool survivalMode = true;
     public bool sandboxMode = false;
@@ -67,28 +69,26 @@ public class UIScript : MonoBehaviour{
 
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         _rb = GetComponent<Rigidbody>();//получаем ригид боди игрока
         _collider = GetComponent<CapsuleCollider>();//получаем колайдер игрока
         //т.к. нам не нужно что бы персонаж мог падать сам по-себе без нашего на то указания.
         //то нужно заблочить поворот по осях X и Z
-nsp=speedPlayer;
+        nsp=speedPlayer;
 
-//проверка на каком устроистве
-#if UNITY_STANDALONE || UNITY_EDITOR
-    PcD=true;
-#elif UNITY_ANDROID || UNITY_IOS || UNITY_REMOTE
-    MobileD=true;
+        //проверка на каком устроистве
+        #if UNITY_STANDALONE || UNITY_EDITOR
+            PcD=true;
+        #elif UNITY_ANDROID || UNITY_IOS || UNITY_REMOTE
+            MobileD=true;
 
-#endif
+        #endif
         _rb.constraints = RigidbodyConstraints.FreezeRotation;
+        rbc = _rb.constraints;
     }
-    public void pechat(bool a)
-	{
-        pechataet = a;
-	}
-    void FixedUpdate()
+
+    private void FixedUpdate()
     {
         if(nonemenu){//если не отрито никакое меню
             MoveLogic();//визиваем логику перемещения
@@ -97,7 +97,7 @@ nsp=speedPlayer;
         BugFix();//функция для предотвращения багов
     }
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
 
             if (Input.GetKeyDown(KeyCode.T)) MenuTransF();//кнопка для меню транспорта
@@ -125,14 +125,16 @@ nsp=speedPlayer;
             {
               speedPlayer = nsp;
             }
+            if(Input.GetKeyDown(KeyCode.F))
+            {
+                flye=!flye;
+            }
 
-	}
-  int bol=0;
-  float yVecSpeed,timerj,milisec=0;
-      void levoe(){
+    	}
+      private void levoe(){
 
             if(seting==true){//если переменая настроек истина
-              Setting.gameObject.SetActive(true);//активируем канвас настроек
+                Setting.gameObject.SetActive(true);//активируем канвас настроек
                 if(seting==true&&sit==1) AudioC.gameObject.SetActive(true);//если меню настроек и подменю настроек 1 включаем канвас настроек аудио
                     else AudioC.gameObject.SetActive(false);//если нет выключаем
                 if(seting==true&&sit==2) GraficC.gameObject.SetActive(true);//если меню настроек и подменю настроек 2
@@ -141,100 +143,90 @@ nsp=speedPlayer;
                     else GameC.gameObject.SetActive(false);//если нет выключаем
                 if (seting==true&&sit==4) DebugbC.gameObject.SetActive(true);//если меню настроек и подменю настроек 4
                     else DebugbC.gameObject.SetActive(false);//если нет выключаем
-                }
+            }
             else
             {
                 Setting.gameObject.SetActive(false);//если нет выключаем канвас настроек
             }
-            if(pauseStatus==true){
-              PauseS.gameObject.SetActive(true);
-            }else{
-              PauseS.gameObject.SetActive(false);
+            if(pauseStatus==true)
+            {
+                PauseS.gameObject.SetActive(true);
+            }
+            else
+            {
+                PauseS.gameObject.SetActive(false);
             }
             if(nonemenu==true)
             {
-              Glav.gameObject.SetActive(true);
+                Glav.gameObject.SetActive(true);
             }
             else
             {
                 Glav.gameObject.SetActive(false);
             }
-            if(nonemenu==true&&MobileD==true){
-              AndroC.gameObject.SetActive(true);
-            }else{
+            if(nonemenu==true&&MobileD==true)
+            {
+                AndroC.gameObject.SetActive(true);
+            }
+            else
+            {
                 AndroC.gameObject.SetActive(false);
             }
-            if(EnventarOpen==true){
-              Enventar.gameObject.SetActive(true);
-            }else{
+            if(EnventarOpen==true)
+            {
+                Enventar.gameObject.SetActive(true);
+            }
+            else
+            {
                 Enventar.gameObject.SetActive(false);
             }
             if(padOpen==true)
-		    {
+		        {
                 PadC.gameObject.SetActive(true);
-		    }
+		        }
             else
-		    {
+		        {
                 PadC.gameObject.SetActive(false);
             }
 
             horizontal=horV;//передаем значения
             vertical=verV;//передает значения
+
             if(inoe)
             {
-              nonemenu = false;
-              padOpen= false;
-              EnventarOpen = false;
-              pauseStatus = false;
-              menuTrans = false;
-              seting = false;
+                nonemenu = false;
+                padOpen= false;
+                EnventarOpen = false;
+                pauseStatus = false;
+                menuTrans = false;
+                seting = false;
             }
-        
-        if (nonemenu){Cursor.lockState=CursorLockMode.Locked;}else{Cursor.lockState=CursorLockMode.None;}
 
-
-
-            Jump g;
-            if(g.jmp>0)
-            { 
-                bol++;
-                Debug.Log("fly up");
-                if (bol>=2 && timerj <100)
-                {
-                    flye=!flye;
-                    bol = 0;
-                
-                }
-            }
-            if (bol > 0)
+            if (nonemenu)
             {
-                timerj = Time.deltaTime;
-                milisec = (timerj % 1) * 1000;
-                if (milisec > 100)
-                {
-                    bol = 0;
-                }
-            }
-            if (Input.GetKey(KeyCode.Space))
-		    {
-                if (flye)
-                {
-                    yVecSpeed = 1.0f;
-                }
-            
+                Cursor.lockState=CursorLockMode.Locked;
             }
             else
-		    {
-                yVecSpeed = 0.0f;
-		    }
+            {
+                Cursor.lockState=CursorLockMode.None;
+            }
+
+            if (Input.GetKey(KeyCode.Space) && flye)
+		        {
+                gameObject.transform.position += new Vector3(0,3,0) * Time.deltaTime;
+            }
+            if(Input.GetKey(KeyCode.LeftShift) && flye)
+            {
+              gameObject.transform.position += new Vector3(0,-3,0) * Time.deltaTime;
+            }
 
             if(flye)
             {
-                _rb.constraints =RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
+                _rb.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
             }
             else
             {
-            _rb.constraints = ~RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
+                _rb.constraints = rbc;
             }
 
 
@@ -267,17 +259,17 @@ nsp=speedPlayer;
             versp = vertical * speedPlayer;
 
             if(flye)
-			{
+			      {
                 return transform.rotation * new Vector3(horsp, _rb.velocity.y + yVecSpeed, versp);//возращаем направление
             }
             else
-			{
+      			{
                 return transform.rotation * new Vector3(horsp, _rb.velocity.y, versp);//возращаем направление
             }
 
         }
      }
-    void BugFix(){//функция баг фиксов
+    private void BugFix(){//функция баг фиксов
         if(!pauseStatus&&!menuTrans&&!EnventarOpen&&!seting&&!padOpen&&!inoe) nonemenu=true;//если не какие меню не открити
     }
     public void OnGo(float asd){horV=asd; }//функция визова из вне
