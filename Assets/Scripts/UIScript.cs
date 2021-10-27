@@ -195,7 +195,7 @@ public class UIScript : MonoBehaviour{
             if(inoe)
             {
                 nonemenu = false;
-                padOpen= false;
+                padOpen = false;
                 EnventarOpen = false;
                 pauseStatus = false;
                 menuTrans = false;

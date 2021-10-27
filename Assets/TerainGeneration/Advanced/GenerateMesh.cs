@@ -15,6 +15,7 @@ public class GenerateMesh : MonoBehaviour {
     public Gradient Gradient { get; set; }//грдиент
 
     public Vector2 NoiseOffset { get; set; }
+    public float mn { get; set; }
 
     private static bool usePerlinNoise = true;//использовать ли шум перлина
     public static bool UsePerlinNoise { get { return usePerlinNoise; } set { usePerlinNoise = value; } }
@@ -62,15 +63,15 @@ public class GenerateMesh : MonoBehaviour {
                 int index4 = index0 + 4;
                 int index5 = index0 + 5;
 
-                float height00 = GetHeight(x + 0, z + 0, xSegments, zSegments, noiseOffset, noiseScale);
-                float height01 = GetHeight(x + 0, z + 1, xSegments, zSegments, noiseOffset, noiseScale);
-                float height10 = GetHeight(x + 1, z + 0, xSegments, zSegments, noiseOffset, noiseScale);
-                float height11 = GetHeight(x + 1, z + 1, xSegments, zSegments, noiseOffset, noiseScale);
+                float height11 = GetHeight(x + 1, z + 1, xSegments, zSegments, noiseOffset, noiseScale) * (1.5f - (-1.5f)) + (-1.5f);
+                float height00 = GetHeight(x + 0, z + 0, xSegments, zSegments, noiseOffset, noiseScale) * (1.5f - (-1.5f)) + (-1.5f);
+                float height01 = GetHeight(x + 0, z + 1, xSegments, zSegments, noiseOffset, noiseScale) * (1.5f - (-1.5f)) + (-1.5f);
+                float height10 = GetHeight(x + 1, z + 0, xSegments, zSegments, noiseOffset, noiseScale) * (1.5f - (-1.5f)) + (-1.5f);
 
-                Vector3 vertex00 = new Vector3((x + 0) * xStep, height00 * terrainSize.y, (z + 0) * zStep);
-                Vector3 vertex01 = new Vector3((x + 0) * xStep, height01 * terrainSize.y, (z + 1) * zStep);
-                Vector3 vertex10 = new Vector3((x + 1) * xStep, height10 * terrainSize.y, (z + 0) * zStep);
-                Vector3 vertex11 = new Vector3((x + 1) * xStep, height11 * terrainSize.y, (z + 1) * zStep);
+                Vector3 vertex00 = new Vector3((x + 0) * xStep, height00 * terrainSize.y , (z + 0) * zStep);
+                Vector3 vertex01 = new Vector3((x + 0) * xStep, height01 * terrainSize.y , (z + 1) * zStep);
+                Vector3 vertex10 = new Vector3((x + 1) * xStep, height10 * terrainSize.y , (z + 0) * zStep);
+                Vector3 vertex11 = new Vector3((x + 1) * xStep, height11 * terrainSize.y , (z + 1) * zStep);
 
                 draft.vertices[index0] = vertex00;
                 draft.vertices[index1] = vertex01;

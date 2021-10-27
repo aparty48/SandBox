@@ -2231,22 +2231,22 @@ MonoBehaviour:
   terrainPrefab: {fileID: 404888420}
   terrainTilePrefab: {fileID: 1208420764819511772, guid: 11edba34140e0b64884b0415dbac3757,
     type: 3}
-  terrainSize: {x: 20, y: 200, z: 20}
+  terrainSize: {x: 20, y: 256, z: 20}
   gradient:
     serializedVersion: 2
     key0: {r: 1, g: 0.97281617, b: 0.21226418, a: 1}
     key1: {r: 0, g: 1, b: 0.047430754, a: 1}
-    key2: {r: 0, g: 0.7924528, b: 0.038791474, a: 1}
+    key2: {r: 0, g: 0.5943396, b: 0.04404185, a: 1}
     key3: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 0}
     key4: {r: 1, g: 1, b: 1, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 3084
-    ctime1: 7710
-    ctime2: 25058
-    ctime3: 35659
-    ctime4: 65535
+    ctime0: 0
+    ctime1: 9252
+    ctime2: 35273
+    ctime3: 47802
+    ctime4: 56090
     ctime5: 0
     ctime6: 0
     ctime7: 0
@@ -2261,7 +2261,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 5
     m_NumAlphaKeys: 2
-  noiseScale: 0.025
+  noiseScale: 0.05
   cellSize: 1
   radiusToRender: 20
   gameTransforms:
@@ -2279,6 +2279,7 @@ MonoBehaviour:
   usePerlinNoise: 1
   noise: {fileID: 0}
   wb: {fileID: 877938985}
+  mn: 0
 --- !u!4 &294458530
 Transform:
   m_ObjectHideFlags: 0
@@ -4988,6 +4989,7 @@ MonoBehaviour:
   GroundLayer:
     serializedVersion: 2
     m_Bits: 1
+  jmp: 0
   uis: {fileID: 621632056}
   jumForse: 150
 --- !u!136 &621632054
@@ -5066,7 +5068,6 @@ MonoBehaviour:
   tsb: 0
   jumpVelocity: 0
   jumpForse: 0
-  pechataet: 0
   flye: 0
   survivalMode: 1
   sandboxMode: 0
@@ -5079,7 +5080,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621632050}
   m_LocalRotation: {x: 0, y: 0.00034904052, z: 0, w: 0.99999994}
-  m_LocalPosition: {x: 0, y: 200, z: -1.29}
+  m_LocalPosition: {x: 0, y: 3, z: -1.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1550028830}

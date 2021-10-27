@@ -58,6 +58,8 @@ public class TerrainController : MonoBehaviour {
 
     [SerializeField]
     private GameObject wb;
+    [SerializeField]
+    private float mn;
 
     private void Awake() {
         if (noise)//существует ли текстура шума
@@ -111,7 +113,7 @@ public class TerrainController : MonoBehaviour {
                     for (int j = -radius; j <= radius; j++)
                         ActivateOrCreateTile((int)tile.x + i, (int)tile.y + j, tileObjects);//активируем или создаем плитку
                 if (isPlayerTile)
-                    water.localPosition = new Vector3(tile.x * terrainSize.x, water.localPosition.y, tile.y * terrainSize.z);//изменяем размер воды
+                    water.localPosition = new Vector3(tile.x * terrainSize.x, water.localPosition.y + 100, tile.y * terrainSize.z);//изменяем размер воды
             }
             //deactivate old tiles
             foreach (GameObject g in previousTileObjects)
@@ -191,7 +193,7 @@ public class TerrainController : MonoBehaviour {
 
 
 
-    
+
 
     private Vector2 NoiseOffset(int xIndex, int yIndex) {//шумовое смещение
         Vector2 noiseOffset = new Vector2(
