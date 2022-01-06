@@ -1,0 +1,1796 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'ru' Physical Memory: 2924 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+E:/Nikiti/GitHub/SandBox
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+64249
+Successfully changed project path to: E:/Nikiti/GitHub/SandBox
+E:/Nikiti/GitHub/SandBox
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 81.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Nikiti/GitHub/SandBox/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Intel(R) HD Graphics (ID=0x46)
+    Vendor:   Intel
+    VRAM:     128 MB
+    Driver:   8.15.10.2900
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004650 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.609 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008931 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.981 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.78 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1871 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.5 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2362.
+Total: 56.305300 ms (FindLiveObjects: 0.453200 ms CreateObjectMapping: 0.141900 ms MarkObjects: 55.662900 ms  DeleteObjects: 0.043900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_09.png
+  artifactKey: Guid(94e583204bed0054fb0ad75fb3555102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_09.png using Guid(94e583204bed0054fb0ad75fb3555102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15852d293a7d95ef5482507ccee62cc6') in 3.428016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002485 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head06.png
+  artifactKey: Guid(e0dc124aec35a7d4ca40377ca56764df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head06.png using Guid(e0dc124aec35a7d4ca40377ca56764df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f6f54fa04fa50066ba335c5863661e') in 0.120368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000829 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_24.png
+  artifactKey: Guid(4b7a6ce0b8b3d6b4b8d4c4273669af05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_24.png using Guid(4b7a6ce0b8b3d6b4b8d4c4273669af05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab07fda446660a5fc06eceef0d1b16b') in 0.106069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000700 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_10.png
+  artifactKey: Guid(5134c97c8c73564439996d065e207ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_10.png using Guid(5134c97c8c73564439996d065e207ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e869ea8b927437db37fbbf4c6725f2ef') in 0.080035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_17.png
+  artifactKey: Guid(6d6c5931bd33d9441a9164706d13f2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_17.png using Guid(6d6c5931bd33d9441a9164706d13f2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fce3c023ba3212b7cf5724bdb4df2d') in 0.056453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_22.png
+  artifactKey: Guid(ae4293bd330070845a543b0923cc7c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_22.png using Guid(ae4293bd330070845a543b0923cc7c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28670da7f3dd29d757980541eca35340') in 0.138051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_04.png
+  artifactKey: Guid(8f8fdd44c093a944081e101f15b655a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_04.png using Guid(8f8fdd44c093a944081e101f15b655a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ec3d75ed2554cd2167139bc950724c') in 0.221116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head07.png
+  artifactKey: Guid(6af1f83b29630c846b90a2ff599bee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head07.png using Guid(6af1f83b29630c846b90a2ff599bee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56681376be958992f0e0251de13a9132') in 0.071987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair13.png
+  artifactKey: Guid(54b723b49b732ca4aa04d0a2307772db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair13.png using Guid(54b723b49b732ca4aa04d0a2307772db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e86e8d61e075b8605daf8efed6e4ea') in 0.088073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_08.png
+  artifactKey: Guid(f64c3d4e93a3bab45a8daf5f29253c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_08.png using Guid(f64c3d4e93a3bab45a8daf5f29253c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c19afe60b25608c0583f6bec2517d7') in 0.068248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_15.png
+  artifactKey: Guid(f5e1a1c0575966c41b65139b4fc42c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_15.png using Guid(f5e1a1c0575966c41b65139b4fc42c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c578a138aa5192f496afe2657ddbcd0') in 0.073828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head04.png
+  artifactKey: Guid(e8f23e7106dd60646b540541bfc2c74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head04.png using Guid(e8f23e7106dd60646b540541bfc2c74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164d443d200b763977c342694272488b') in 0.107221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_05.png
+  artifactKey: Guid(eaaa6da1121280d4d9d3862831794604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_05.png using Guid(eaaa6da1121280d4d9d3862831794604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0338b7ec44566cc81d109fd9d84dac52') in 0.094137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_25.png
+  artifactKey: Guid(a8c21266611e6e84bbb2ab5a7987c59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_25.png using Guid(a8c21266611e6e84bbb2ab5a7987c59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75aa845677f77f8e3a10692fd861ad3') in 0.079200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_20.png
+  artifactKey: Guid(5057cf8e4994c12438499f9f23d7c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_20.png using Guid(5057cf8e4994c12438499f9f23d7c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bb0970e7ede8f17915c4b0f915d96f') in 0.077483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head11.png
+  artifactKey: Guid(699af5c858be43d49a24d852ac9718f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head11.png using Guid(699af5c858be43d49a24d852ac9718f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd47d9165fd2c21e5d2ba61d1f3ccf1') in 0.050143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair15.png
+  artifactKey: Guid(95e8b154eaa2a044a9b812a1224a5193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair15.png using Guid(95e8b154eaa2a044a9b812a1224a5193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30091e446941313694a9895d3dd3cf90') in 0.080585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_27.png
+  artifactKey: Guid(97549152fb4c0124bad85f3dab3a6f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_27.png using Guid(97549152fb4c0124bad85f3dab3a6f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881476f2fcf4c1d4849ff76df11cf522') in 0.048994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000708 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_19.png
+  artifactKey: Guid(70705c8ccb910c64b9dad7d535de67a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_19.png using Guid(70705c8ccb910c64b9dad7d535de67a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ded4537f061fe5a845786b451b47565') in 0.082383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_14.png
+  artifactKey: Guid(4526f0de89c940d4fa16501f19166165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_14.png using Guid(4526f0de89c940d4fa16501f19166165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd78c29254b4f29023d5d674cc954704') in 0.128045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000739 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_13.png
+  artifactKey: Guid(ef40eaef26b248e448402f7b7db5fdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_13.png using Guid(ef40eaef26b248e448402f7b7db5fdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f3e53721298751f89ab6c2da0b7e44') in 0.051515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head05.png
+  artifactKey: Guid(480acdd78bac54b42ba026b3e8c77a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head05.png using Guid(480acdd78bac54b42ba026b3e8c77a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe420c877386fd62b7ff799ac9799677') in 0.105912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000780 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_18.png
+  artifactKey: Guid(b6eda1248adef4c4cb56beff2ba4d82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_18.png using Guid(b6eda1248adef4c4cb56beff2ba4d82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c08c159c7cd28963704608b325b74c') in 0.065060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head00.png
+  artifactKey: Guid(22fa0af0552d96e4a9f8f10c4a30d5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head00.png using Guid(22fa0af0552d96e4a9f8f10c4a30d5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606e00f5f1b621caade286a65deebc11') in 0.085236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_16.png
+  artifactKey: Guid(acf86d3bd29b4564ab5d3098ecd57128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_16.png using Guid(acf86d3bd29b4564ab5d3098ecd57128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7574f16952380f171d4f15a0708b7c0f') in 0.079214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair16.png
+  artifactKey: Guid(94fbbfccdfa63494280a7b4a9fe0af4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair16.png using Guid(94fbbfccdfa63494280a7b4a9fe0af4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53f2a44551b946eb852125223b8c8b0') in 0.084096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_01.png
+  artifactKey: Guid(730bc0988a5ad2946a1a26741794ce53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_01.png using Guid(730bc0988a5ad2946a1a26741794ce53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98383150853358a7f936b2f024fce0f') in 0.048429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_23.png
+  artifactKey: Guid(cd2f25a437e1cf6489215f31e414f510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_23.png using Guid(cd2f25a437e1cf6489215f31e414f510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff14b9bbc9b36a771c9a2d67af467c9') in 0.064207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_11.png
+  artifactKey: Guid(b71c7054de386ff4f8ca022a8a5802c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_11.png using Guid(b71c7054de386ff4f8ca022a8a5802c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6fa19f5961df870d2d557dd1eeff37') in 0.090461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_02.png
+  artifactKey: Guid(70217ec4fea529943a85145f741de39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_02.png using Guid(70217ec4fea529943a85145f741de39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f93b9ed454ffc5057ebb1676a3323b') in 0.073234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000843 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_26.png
+  artifactKey: Guid(a7c844d2e2bb13b47badc2946bcc9be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_26.png using Guid(a7c844d2e2bb13b47badc2946bcc9be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1a122da97c128f977396dc89bd65b2') in 0.198367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000764 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head12.png
+  artifactKey: Guid(0fcff3d36d68c0543adf2318b8a14e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head12.png using Guid(0fcff3d36d68c0543adf2318b8a14e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a433774f2779e769ef1860d353e19745') in 0.077464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_21.png
+  artifactKey: Guid(7b86ceeffe970034fa3113af935f1ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_21.png using Guid(7b86ceeffe970034fa3113af935f1ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4b85344e1fd134505afca5f16d4cf4') in 0.077991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair17.png
+  artifactKey: Guid(6de4814e01406df439ab0ad5a2d34f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair17.png using Guid(6de4814e01406df439ab0ad5a2d34f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a724a8810cfa60a7f2e6429dc6f3dc') in 0.070777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_06.png
+  artifactKey: Guid(7fb6de307b0182d4e888e5a04a2b0969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_06.png using Guid(7fb6de307b0182d4e888e5a04a2b0969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3bebabf68fce28889e7f54396cb6e8') in 0.078741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_03.png
+  artifactKey: Guid(3a67a5358ca01834b897ad86160ea276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_03.png using Guid(3a67a5358ca01834b897ad86160ea276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a2dd7f6dd3f4ea960aeb7944559991') in 0.057217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair18.png
+  artifactKey: Guid(df464751e95a63345b1f09de5bb0eb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair18.png using Guid(df464751e95a63345b1f09de5bb0eb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c87c7752868c098a0e9b667abc8016') in 0.124632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_07.png
+  artifactKey: Guid(96efa0c9e174e834ab035ca625f3b0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_07.png using Guid(96efa0c9e174e834ab035ca625f3b0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9daf86fa5458fd11336af049cd85aa0') in 0.166155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000708 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_29.png
+  artifactKey: Guid(72e2f813bea72e94588b7ed1fa3d1e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_29.png using Guid(72e2f813bea72e94588b7ed1fa3d1e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28c36fcee5ce1b1b8050050cf4a72c2') in 0.061770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_12.png
+  artifactKey: Guid(63238ad6cae2c5442ac94ea4d1a03b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_12.png using Guid(63238ad6cae2c5442ac94ea4d1a03b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b0a70e9d4fb4741365cef2492c68a2') in 0.072017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_28.png
+  artifactKey: Guid(28b3e4683c5197b4e94402fc8ec947df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_28.png using Guid(28b3e4683c5197b4e94402fc8ec947df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5583ff1f8f285baeb5c43b4f47ae74e') in 0.095627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair14.png
+  artifactKey: Guid(98311c6f41c604041b95d8610a45a3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair14.png using Guid(98311c6f41c604041b95d8610a45a3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd2d2236fb336bebd58eee47e5a511d') in 0.046414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head01.png
+  artifactKey: Guid(4eefa033768d6aa418eb05f82d49be5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head01.png using Guid(4eefa033768d6aa418eb05f82d49be5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2969aa7e4144b4cb79394391aac8619') in 0.097295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_00.png
+  artifactKey: Guid(e5bd364d07536d3479e295f8a4e16e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/leg_00.png using Guid(e5bd364d07536d3479e295f8a4e16e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b4b86cf49ab4c7f6307b0b509006ae') in 0.060839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head10.png
+  artifactKey: Guid(ba3e29e6bc9e3334b8a4fa13d0dd85fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head10.png using Guid(ba3e29e6bc9e3334b8a4fa13d0dd85fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe51629577c7f5bea98280329406cf35') in 0.051698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head03.png
+  artifactKey: Guid(cb1c9d0780243c14db65342147720074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head03.png using Guid(cb1c9d0780243c14db65342147720074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6757323de65ce773f005f42966674117') in 0.079702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head02.png
+  artifactKey: Guid(b6bdbcf7a122dc44a846724b5c27d508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head02.png using Guid(b6bdbcf7a122dc44a846724b5c27d508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7569378b1d678e1fb7cd4536f3238f3d') in 0.080998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head09.png
+  artifactKey: Guid(599df9659c9e1f646ab70749aa6d8938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head09.png using Guid(599df9659c9e1f646ab70749aa6d8938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6da5466203038268527f41222822d48') in 0.056687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head08.png
+  artifactKey: Guid(b8708ed5608f83c4aac062b975ee930d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/head08.png using Guid(b8708ed5608f83c4aac062b975ee930d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb2949f730a7ef474caf42df3341609') in 0.157374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1229.785552 seconds.
+  path: Assets/Prefab/Panel.prefab
+  artifactKey: Guid(e3b4b46bdd10b3a439dc36c08d41e996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Panel.prefab using Guid(e3b4b46bdd10b3a439dc36c08d41e996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c4b3531aaa800c970d3d746024add3') in 0.452909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.134037 seconds.
+  path: Assets/Prefab/Panel.prefab
+  artifactKey: Guid(e3b4b46bdd10b3a439dc36c08d41e996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Panel.prefab using Guid(e3b4b46bdd10b3a439dc36c08d41e996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4c2af1af733ec68758dc1b76e3dcfe') in 0.009694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.752178 seconds.
+  path: Assets/Prefab/Panel.prefab
+  artifactKey: Guid(e3b4b46bdd10b3a439dc36c08d41e996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Panel.prefab using Guid(e3b4b46bdd10b3a439dc36c08d41e996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c43de8e9111cdcfb4a6d8b2f39f36a') in 0.009629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.896784 seconds.
+  path: Assets/Prefab/Panel.prefab
+  artifactKey: Guid(e3b4b46bdd10b3a439dc36c08d41e996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Panel.prefab using Guid(e3b4b46bdd10b3a439dc36c08d41e996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc70b18ac7ceb3592a496dcd40ab7e1') in 0.012182 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.452 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1684.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1897 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.2 MB.
+System memory in use after: 146.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3108.
+Total: 6782.742300 ms (FindLiveObjects: 473.816300 ms CreateObjectMapping: 0.889900 ms MarkObjects: 5806.494400 ms  DeleteObjects: 346.070900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1901.999668 seconds.
+  path: Assets/Scenes/Tanks.unity
+  artifactKey: Guid(e1579585273cab340a031312a31e2d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tanks.unity using Guid(e1579585273cab340a031312a31e2d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfe0cf044ad949a9b2c2086e811b7c8') in 0.890507 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.128160 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 15.464 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.2 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3111.
+Total: 388.081800 ms (FindLiveObjects: 21.700800 ms CreateObjectMapping: 0.626600 ms MarkObjects: 365.264500 ms  DeleteObjects: 0.485500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.122805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.666 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3114.
+Total: 5.976600 ms (FindLiveObjects: 0.559400 ms CreateObjectMapping: 0.180300 ms MarkObjects: 5.180700 ms  DeleteObjects: 0.051000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 622.066024 seconds.
+  path: Assets/Scenes/sand.unity
+  artifactKey: Guid(1541349b279435c458a0b03aca1d771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/sand.unity using Guid(1541349b279435c458a0b03aca1d771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d3cf37397ca3b30fdbdd6753fd8dfd') in 0.262387 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.411 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3117.
+Total: 5.819300 ms (FindLiveObjects: 0.537500 ms CreateObjectMapping: 0.182000 ms MarkObjects: 5.052500 ms  DeleteObjects: 0.044000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 72.387257 seconds.
+  path: Assets/Scripts/Tanks
+  artifactKey: Guid(1544098dfc30d7b4eba1e21c7fead948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tanks using Guid(1544098dfc30d7b4eba1e21c7fead948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9183526a92536490a83e535fc3a90eb4') in 0.208834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 155.190524 seconds.
+  path: Assets/Scripts/Tanks/Main.cs
+  artifactKey: Guid(5a005eefc2c8c3a4d849c828b9d95f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tanks/Main.cs using Guid(5a005eefc2c8c3a4d849c828b9d95f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b3e7171cdf23ff2d19e1abe5a24c88') in 5.150434 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.048843 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.736 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3121.
+Total: 7.248400 ms (FindLiveObjects: 0.824500 ms CreateObjectMapping: 0.259700 ms MarkObjects: 6.042600 ms  DeleteObjects: 0.070800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 354.150441 seconds.
+  path: Assets/Textures/Tanks
+  artifactKey: Guid(a04d401e81d6aa8428b368349c57c27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Tanks using Guid(a04d401e81d6aa8428b368349c57c27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d5ed3fada3b38df8930d945c443d51') in 0.117075 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.113922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.609 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3124.
+Total: 167.423000 ms (FindLiveObjects: 12.378800 ms CreateObjectMapping: 0.702300 ms MarkObjects: 143.334500 ms  DeleteObjects: 11.002100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011832 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.309 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.5 MB.
+System memory in use after: 144.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3127.
+Total: 6.777200 ms (FindLiveObjects: 0.705200 ms CreateObjectMapping: 0.382400 ms MarkObjects: 5.626000 ms  DeleteObjects: 0.059900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.139731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.765 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.5 MB.
+System memory in use after: 144.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3130.
+Total: 5.971400 ms (FindLiveObjects: 0.569200 ms CreateObjectMapping: 0.187400 ms MarkObjects: 5.152200 ms  DeleteObjects: 0.057800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 333763.119748 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_00.png
+  artifactKey: Guid(3f33fb4dd031cd54494746d978e2f775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_00.png using Guid(3f33fb4dd031cd54494746d978e2f775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c121288fe32c5e6b20ec0d3c12cfd6f6') in 21.516934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015628 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_01.png
+  artifactKey: Guid(0fd61213eb411fb40af03c87282103bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_01.png using Guid(0fd61213eb411fb40af03c87282103bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60879ca2dfaa27f36c31b9051ee9e168') in 1.193987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000764 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_07.png
+  artifactKey: Guid(5f66c7ea86dedde4481d543a2d0bb387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_07.png using Guid(5f66c7ea86dedde4481d543a2d0bb387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308b0cde3ddd07f2e41c78ac3c3d16f1') in 0.461892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_06.png
+  artifactKey: Guid(c977394709dace54399bd3fcdb070e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_06.png using Guid(c977394709dace54399bd3fcdb070e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a864aac4c5731f15ffed75f615cfc688') in 0.229954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_15.png
+  artifactKey: Guid(243c88e7c9d7d07458683eeaa162b78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_15.png using Guid(243c88e7c9d7d07458683eeaa162b78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd8ed56799734e31d0973bdfe4b0d1e') in 0.296154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000776 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_23.png
+  artifactKey: Guid(82b8eb33f7b893d4199bac1b5f389daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_23.png using Guid(82b8eb33f7b893d4199bac1b5f389daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece456bac6bd816c001f32738e7c2c51') in 0.655032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_36.png
+  artifactKey: Guid(4a2aaa7a13cdc8f4893b697527469103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_36.png using Guid(4a2aaa7a13cdc8f4893b697527469103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edc74a85cc9311b4366f4be7c7d8479') in 0.221652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_34.png
+  artifactKey: Guid(f9dd381f5eb57224bb25e5cfb31faff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_34.png using Guid(f9dd381f5eb57224bb25e5cfb31faff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c2558d46915ab0cc2861250fe0b8b4') in 0.162024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_44.png
+  artifactKey: Guid(8301cc35cd50e464ca450b27e3d6cda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_44.png using Guid(8301cc35cd50e464ca450b27e3d6cda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf9307cb07d800525bb5b7d4efe3ac6') in 0.410372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_38.png
+  artifactKey: Guid(fa2863c64f07f154da30d9058eb52f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_38.png using Guid(fa2863c64f07f154da30d9058eb52f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f9c6fdd2f3e32e119a2001ef2b0e37') in 0.268591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_50.png
+  artifactKey: Guid(dd5ee32f15b911048863e61500134d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_50.png using Guid(dd5ee32f15b911048863e61500134d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb60749eedcf218dbac29607a384ac70') in 0.126590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_15.png
+  artifactKey: Guid(f759c304b11a6314685c6326be547ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_15.png using Guid(f759c304b11a6314685c6326be547ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bf04ce95e82fddbfeddca7f9549b3c') in 0.198088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_10.png
+  artifactKey: Guid(7d5c52a88705b0a46ab9549e2c83209d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_10.png using Guid(7d5c52a88705b0a46ab9549e2c83209d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ab253cba15c7b10fcc5c5b6df1a640') in 0.180693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_05.png
+  artifactKey: Guid(8689948a665fec1419762a398450428f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_05.png using Guid(8689948a665fec1419762a398450428f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de1a37053e63e77b91067cbd56bd1c0') in 0.640586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_19.png
+  artifactKey: Guid(ebfd529ba09311641977bdb28701db73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_19.png using Guid(ebfd529ba09311641977bdb28701db73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc19e5f4c9f467697562eba7e40e2125') in 0.251440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_27.png
+  artifactKey: Guid(6468b28d8ba40b7458286e5c3e66e07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_27.png using Guid(6468b28d8ba40b7458286e5c3e66e07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17ce0a57b1480554e14e6d1215fc442') in 0.251159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes08.png
+  artifactKey: Guid(af2eadb9bda219e45afe2eda005167b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes08.png using Guid(af2eadb9bda219e45afe2eda005167b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95e873c835cc1a7e4cc91337cb991a0') in 0.304486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_35.png
+  artifactKey: Guid(37413d04e655b1349a32c95d8c9539c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_35.png using Guid(37413d04e655b1349a32c95d8c9539c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782b1bee349fe02a4bb23f19d54fa3ee') in 0.341914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_45.png
+  artifactKey: Guid(63a829ddb0d67d447a66b1a7f5b8f20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_45.png using Guid(63a829ddb0d67d447a66b1a7f5b8f20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cac85f97030739551e635b8112cc6c2') in 0.168646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/Ludiq/Bolt.Core/IconMap/Bolt.GlobalMessageListener.png
+  artifactKey: Guid(0129cf6bb23df2f41824eda97d16ee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Bolt.Core/IconMap/Bolt.GlobalMessageListener.png using Guid(0129cf6bb23df2f41824eda97d16ee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455c0be46d551d9eb88138c862af8aa0') in 0.403180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_28.png
+  artifactKey: Guid(045cf89af06ab484ab8d50425b943956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_28.png using Guid(045cf89af06ab484ab8d50425b943956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0768e069eb8b926e4d1452e6563705') in 0.158768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_18.png
+  artifactKey: Guid(5bf84e3e0816c46419609b5a2cd99be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_18.png using Guid(5bf84e3e0816c46419609b5a2cd99be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57071934b323a5408bf9201e39002904') in 0.384485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_24.png
+  artifactKey: Guid(ac7cd8920237da140a2a0b010f8c342a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_24.png using Guid(ac7cd8920237da140a2a0b010f8c342a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1335f8d3abef2134f7059dbbb8bbb962') in 0.165693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes00.png
+  artifactKey: Guid(23972c2c287df124faca5904ee754f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes00.png using Guid(23972c2c287df124faca5904ee754f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9b30537ddf82f586e9aead087ec456') in 0.211829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Ludiq/Bolt.Core/IconMap/Bolt.UnityMessageListener.png
+  artifactKey: Guid(310bebb331cf47f42b7f0b57b1f5bfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Bolt.Core/IconMap/Bolt.UnityMessageListener.png using Guid(310bebb331cf47f42b7f0b57b1f5bfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e5635c16ee6c61cb370c1287fd3556') in 0.220181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_20.png
+  artifactKey: Guid(a65afbe8d2543364cae0e62f472f1121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_20.png using Guid(a65afbe8d2543364cae0e62f472f1121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04409bbcdbe0df79ae3a0d167aaef189') in 0.433172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_00.png
+  artifactKey: Guid(ec93e9d8c45cc114fa054c81b626b5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_00.png using Guid(ec93e9d8c45cc114fa054c81b626b5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbac09aa642294f3278ad64f5f99308c') in 0.448747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_27.png
+  artifactKey: Guid(c225adc6f2ccc074c86882a111223c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_27.png using Guid(c225adc6f2ccc074c86882a111223c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa651321479bde5d79f4de3917aad91') in 0.545909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_29.png
+  artifactKey: Guid(c027d6b2fa7a13b4fbead51088521d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_29.png using Guid(c027d6b2fa7a13b4fbead51088521d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26f2aa4c92fa141c07c91179890d6bb') in 0.748037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020597 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_20.png
+  artifactKey: Guid(28d00be23daa2cb45a21d776d4085a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_20.png using Guid(28d00be23daa2cb45a21d776d4085a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a0828a1b0ee9384faf550eb391b437') in 0.481050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_11.png
+  artifactKey: Guid(840619f979c48af49ada318c7e44ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_11.png using Guid(840619f979c48af49ada318c7e44ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a261b7f4ca9a3331d2f84876a6ed6e') in 0.686865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes09.png
+  artifactKey: Guid(28d77ac1dae251c4d94ef26c092849b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes09.png using Guid(28d77ac1dae251c4d94ef26c092849b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c48fc62fbcde2e758f9c3d6e92035ba') in 0.799509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000656 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_31.png
+  artifactKey: Guid(a593d9a3a360a1846b4d4ca5d885cff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_31.png using Guid(a593d9a3a360a1846b4d4ca5d885cff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb062b39a7f8e605bfd0c61f62bbfd62') in 0.528379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_05.png
+  artifactKey: Guid(b5c7fe5a2e64b9348b1e2e4159424949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_05.png using Guid(b5c7fe5a2e64b9348b1e2e4159424949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a8d790b4116951247a66000626da0e') in 0.148426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_17.png
+  artifactKey: Guid(2efb70c05c04f2249a043316455e20b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_17.png using Guid(2efb70c05c04f2249a043316455e20b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29930c229080f8640df6a2e1c8420e68') in 0.633367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_12.png
+  artifactKey: Guid(6c3f7b3572876374ab08667c11e5a96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_12.png using Guid(6c3f7b3572876374ab08667c11e5a96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bd8aaae7c28b09d8b9afb02d2b0e44') in 0.221909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Ludiq/Bolt.Core/IconMap/Bolt.VariablesAsset.png
+  artifactKey: Guid(7e1f811eb716b3844aad1127122172ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Bolt.Core/IconMap/Bolt.VariablesAsset.png using Guid(7e1f811eb716b3844aad1127122172ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ea2ec53c2aa6602b5562d3911bdf3e') in 0.462301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_08.png
+  artifactKey: Guid(5a0bfe110dc9e8c44851ed9b034c57a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_08.png using Guid(5a0bfe110dc9e8c44851ed9b034c57a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c59145af12467eb1d3e4666884ea0f') in 0.558782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_39.png
+  artifactKey: Guid(da0ffa2d7e55d8a4cb9bb8fc04107680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_39.png using Guid(da0ffa2d7e55d8a4cb9bb8fc04107680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152fa7c7f518520b0ebe4913600382db') in 0.478003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_11.png
+  artifactKey: Guid(819039b70ef2cdb4e8ff8dbe16a8cac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_11.png using Guid(819039b70ef2cdb4e8ff8dbe16a8cac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd3f960fef9f2829c8dc3f1f087fdb9') in 0.377497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_07.png
+  artifactKey: Guid(bc91bae26966be942a2f8f3dfb8e1baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_07.png using Guid(bc91bae26966be942a2f8f3dfb8e1baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef85579ff46853a386d5b773b9617679') in 0.207770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes10.png
+  artifactKey: Guid(d8143bc89a5437f4fa6e16d36a57bacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes10.png using Guid(d8143bc89a5437f4fa6e16d36a57bacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ee4c9cfcc8b5351074a8f450e3d812') in 0.163200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes12.png
+  artifactKey: Guid(c9b43902563b09140bc347671166dd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes12.png using Guid(c9b43902563b09140bc347671166dd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200f47b96feabe9e336b076286546e39') in 0.341466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes11.png
+  artifactKey: Guid(92ded94f957b5a74193efdb0c845117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes11.png using Guid(92ded94f957b5a74193efdb0c845117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7be3ead0400bd4901832eb1bd8129d7') in 0.323876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000773 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes13.png
+  artifactKey: Guid(3682fcb476e193c4a8ac52ff5d14369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes13.png using Guid(3682fcb476e193c4a8ac52ff5d14369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15bb9ac1e79ba7fc62a8994076efe11') in 0.160765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_32.png
+  artifactKey: Guid(15463d6704403dc4fbc9b8dfbc6338b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_32.png using Guid(15463d6704403dc4fbc9b8dfbc6338b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa32c3337f7f730bfe1daf85549aa457') in 0.261370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes15.png
+  artifactKey: Guid(199b1ea7a896ca2429df79823d126b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes15.png using Guid(199b1ea7a896ca2429df79823d126b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd848e6843fd4c169b10c9d3f72b80bdd') in 0.794433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_16.png
+  artifactKey: Guid(33f5bc18af481ce44ab3b8c651fc7b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_16.png using Guid(33f5bc18af481ce44ab3b8c651fc7b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6969bc7ede7976d27e07c6abe9df93f5') in 0.676995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes17.png
+  artifactKey: Guid(dec1dcfc28d35834ca49d21b88313869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes17.png using Guid(dec1dcfc28d35834ca49d21b88313869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4d70c1ec034a9455551ed302c7f5cd') in 0.406044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_47.png
+  artifactKey: Guid(0e30f8ef328149746901c85bc8cee947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_47.png using Guid(0e30f8ef328149746901c85bc8cee947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91f2a5d896574cebbcfa3f104672b2d') in 0.297990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_13.png
+  artifactKey: Guid(2d2828a7faa842a479a4b549866a27dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_13.png using Guid(2d2828a7faa842a479a4b549866a27dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b74bbb2fffcef4b69a5c1f8a69a96f1') in 0.608276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair02.png
+  artifactKey: Guid(8136afaeae98d014fb530c7b2650d19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair02.png using Guid(8136afaeae98d014fb530c7b2650d19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c36dd789f2f3b9b17b691f8e2eb0f5') in 0.569721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000916 seconds.
+  path: Assets/3d/fonar.png
+  artifactKey: Guid(29c86a817ccb2394691ae3a2d3520d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/fonar.png using Guid(29c86a817ccb2394691ae3a2d3520d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587311b00d188417743e65de9af07c97') in 0.832331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair04.png
+  artifactKey: Guid(3d1772724917fc64380af07516c9eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair04.png using Guid(3d1772724917fc64380af07516c9eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9384634b7d07a0ac533260e2e29039ab') in 0.474632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_08.png
+  artifactKey: Guid(02cbb3cd3ad9dfd4db0251fc7132569d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_08.png using Guid(02cbb3cd3ad9dfd4db0251fc7132569d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532c2deef5fd2ec60afda518f8b233c0') in 0.517969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair07.png
+  artifactKey: Guid(264b114a6026c7b4da9123727ee61838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair07.png using Guid(264b114a6026c7b4da9123727ee61838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e27484417aeabfc2bda9bf784c7c36') in 1.027071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair03.png
+  artifactKey: Guid(7d0b745fa1b26f44b8113ede9b5948f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair03.png using Guid(7d0b745fa1b26f44b8113ede9b5948f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282cd96f9015028d4d162a2e4636f1e6') in 0.187266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_12.png
+  artifactKey: Guid(69abd3b154756e14f88357c260348ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_12.png using Guid(69abd3b154756e14f88357c260348ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41093e97b37f4d06fa2f662626cabc57') in 0.415406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_31.png
+  artifactKey: Guid(0c3faba0bb496de4e82f43d9554bbaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_31.png using Guid(0c3faba0bb496de4e82f43d9554bbaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b1d54c5035566bfde863b6d47d0d88') in 0.186031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_41.png
+  artifactKey: Guid(fd4ec08867b52e045803ca5fc4dfcb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_41.png using Guid(fd4ec08867b52e045803ca5fc4dfcb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf416d7ed89cef2cbba531d84385953f') in 0.198598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair05.png
+  artifactKey: Guid(ca4eb4dcd53144c4b884a2f615db9985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair05.png using Guid(ca4eb4dcd53144c4b884a2f615db9985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844b6182425cde2e1a4c7ce512fbdd23') in 0.178584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_06.png
+  artifactKey: Guid(8f2e3fb2fd9546e4d945120a24fca098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_06.png using Guid(8f2e3fb2fd9546e4d945120a24fca098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0884b87d22713d1c91a1aa9bf31d189') in 0.180911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes06.png
+  artifactKey: Guid(d91a7d54ac8b7094385146799c2d4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes06.png using Guid(d91a7d54ac8b7094385146799c2d4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a366f672e77f3f9a89121c99ba6b6d89') in 0.273477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_24.png
+  artifactKey: Guid(55c7eda222deff944830912b7e77fb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_24.png using Guid(55c7eda222deff944830912b7e77fb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b599d4e12920d308c236336f0f12b2') in 0.544553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_19.png
+  artifactKey: Guid(1ee0f627aee2f324bb91582ee85fd520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_19.png using Guid(1ee0f627aee2f324bb91582ee85fd520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89c8bf7d70d6965eee03a2f25bee7f3') in 0.197945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_09.png
+  artifactKey: Guid(8c115d97853651e488c86f647b6f8491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_09.png using Guid(8c115d97853651e488c86f647b6f8491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4190e0f3567c61bb2c60aeb519640e0') in 0.161372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_16.png
+  artifactKey: Guid(27fbe2b22c30803409106aa3b7d499d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_16.png using Guid(27fbe2b22c30803409106aa3b7d499d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84319bfb5973a88adad34bcdae5fc72c') in 0.117102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_19.png
+  artifactKey: Guid(6f6ee60a64b0b7646b1896797be05520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_19.png using Guid(6f6ee60a64b0b7646b1896797be05520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b83be3a6a2baa61d2579c604232262') in 0.422774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_02.png
+  artifactKey: Guid(17de2f1974fb9534fb02b4c5ff23d001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_02.png using Guid(17de2f1974fb9534fb02b4c5ff23d001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17c6d970d7c4029decba0b9e44783f8') in 0.280457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_21.png
+  artifactKey: Guid(93dde3911f21df8479f3c049c16f45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_21.png using Guid(93dde3911f21df8479f3c049c16f45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62557913420cabede1e7fcb2baaa6630') in 0.183376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair08.png
+  artifactKey: Guid(52316e4bfc3152742ad1aca300bdd6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair08.png using Guid(52316e4bfc3152742ad1aca300bdd6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8863db0450548038c45aa00a5c0ed7b') in 0.484837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes03.png
+  artifactKey: Guid(d3fbc25e19694e848b04ed4bd6a4249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes03.png using Guid(d3fbc25e19694e848b04ed4bd6a4249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fb492b40a9dea353279d2c8a63b40f') in 0.202788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_22.png
+  artifactKey: Guid(6c0737a8d6a82b64aa9ed1176efdfbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_22.png using Guid(6c0737a8d6a82b64aa9ed1176efdfbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c32ec2aaa90e7dc4e11a8e96f06c3ef') in 0.152671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_18.png
+  artifactKey: Guid(c071a53e2c767a64da85a43b46114ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_18.png using Guid(c071a53e2c767a64da85a43b46114ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3288f1fca4b6518da03f8b75ebfe1ec2') in 0.148216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_26.png
+  artifactKey: Guid(815e7565cb2a94d41b9fa47cfff1493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_26.png using Guid(815e7565cb2a94d41b9fa47cfff1493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9612e3a6e0297cb7288f5c03e0325c4') in 0.249652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_30.png
+  artifactKey: Guid(47e66297ad667f847845117036e22bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_30.png using Guid(47e66297ad667f847845117036e22bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c449e78d4d944948e11de39fc951a49') in 0.177040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_10.png
+  artifactKey: Guid(01bc3c19ccd468b4e88257b356f35190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_10.png using Guid(01bc3c19ccd468b4e88257b356f35190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dac660d02cc1838b560f5b18439d26') in 0.243538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_14.png
+  artifactKey: Guid(24bf03e577217ac4a85188513143997c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_14.png using Guid(24bf03e577217ac4a85188513143997c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed51b9a32becbb497cc614697e7a796') in 0.239063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_21.png
+  artifactKey: Guid(611a24a551d912c439f1445adea9ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_21.png using Guid(611a24a551d912c439f1445adea9ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23887771f2348a8fea827ae294d5c3c2') in 0.351444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_13.png
+  artifactKey: Guid(966763c173fa2494183ab42a29b980a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_13.png using Guid(966763c173fa2494183ab42a29b980a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23ca1e2076b97adcd30dba4701f922a') in 0.243068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_14.png
+  artifactKey: Guid(c6e211fb888145a4d87dd1a66290a9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_14.png using Guid(c6e211fb888145a4d87dd1a66290a9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3120d1eee5fe5b5e59f8ce229e26c380') in 0.188638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes14.png
+  artifactKey: Guid(7ac17788ae22edc42aefbf5a964fdd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes14.png using Guid(7ac17788ae22edc42aefbf5a964fdd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c310ed6d3537958b147c5f847c05b46') in 0.349711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001729 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_21.png
+  artifactKey: Guid(50fa83570115a5445829e0fece2110e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_21.png using Guid(50fa83570115a5445829e0fece2110e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05489ddd7afb3509228e82d12f1949f0') in 0.280480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes07.png
+  artifactKey: Guid(a796f4971c7083c43a06b6f24425576b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes07.png using Guid(a796f4971c7083c43a06b6f24425576b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b39893f89d6674ff4b4256c54c453c6') in 0.130467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair00.png
+  artifactKey: Guid(3e440ca485eabf0428347c6fa90c2b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair00.png using Guid(3e440ca485eabf0428347c6fa90c2b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47083b9b6e201f7142ed5062ebe68b9f') in 0.243395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_42.png
+  artifactKey: Guid(32081330bcc34974fa70e23bf5f8584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_42.png using Guid(32081330bcc34974fa70e23bf5f8584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb9da6783704f371ff918d513ca27b1') in 0.218180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Material/download.jpg
+  artifactKey: Guid(78bd07b360cefe8489d002f2f2a1fbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/download.jpg using Guid(78bd07b360cefe8489d002f2f2a1fbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb57c8b771e10aa3a49fe87c6a47e59') in 0.455255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01.png
+  artifactKey: Guid(eb34aa05f29e3a74da50741a3695603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01.png using Guid(eb34aa05f29e3a74da50741a3695603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d055c8471afaae722918fde9d1c9c3f') in 0.165160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes04.png
+  artifactKey: Guid(af19fa4bc0bd67c4590cfb2b559d3c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes04.png using Guid(af19fa4bc0bd67c4590cfb2b559d3c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d4d7fe05240a96b02ad62c435a09b2') in 0.243223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_43.png
+  artifactKey: Guid(8290a75fb8e2dc94bac623e13a29d225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_43.png using Guid(8290a75fb8e2dc94bac623e13a29d225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe6046a0d0d9a7a5c48826b849f68a7') in 0.251656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_04.png
+  artifactKey: Guid(25f8a7401b4d03b4cb7b23a1cba60878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_04.png using Guid(25f8a7401b4d03b4cb7b23a1cba60878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4377cf7335a7cf07a97b203cc3e18f4') in 0.218955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_17.png
+  artifactKey: Guid(5ef29cb710182de4c80a6cd69622690c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_17.png using Guid(5ef29cb710182de4c80a6cd69622690c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772621ef2f17529163243a5a0846a287') in 0.111273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_25.png
+  artifactKey: Guid(64fb5566cf6c1da4594bb3b610b39822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_25.png using Guid(64fb5566cf6c1da4594bb3b610b39822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85342353f11baacd11b6b41f347997bb') in 0.193722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_33.png
+  artifactKey: Guid(1ad416a78ccd55d42b42fc2f1d0e984d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_33.png using Guid(1ad416a78ccd55d42b42fc2f1d0e984d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0f4cb53514e04aac1c01cc76ba36ab') in 0.192451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes05.png
+  artifactKey: Guid(710ede35fd3aa6448b9adc2a38f4ab23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes05.png using Guid(710ede35fd3aa6448b9adc2a38f4ab23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd598bf0be027c248173d831611d06a82') in 0.230313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001862 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes01.png
+  artifactKey: Guid(1992a5f58bc3aff45836c4ae519a8f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes01.png using Guid(1992a5f58bc3aff45836c4ae519a8f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf1f70f0baafa89cf0c4b1cfff44592') in 0.128956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002009 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes02.png
+  artifactKey: Guid(7b9d755b8c1bb6541b78625addfc5f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes02.png using Guid(7b9d755b8c1bb6541b78625addfc5f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7459d45b028f5099b6202c910c7335d9') in 0.188133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_17.png
+  artifactKey: Guid(e5c0e4f160b9b5b4f89c4ca570738f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_17.png using Guid(e5c0e4f160b9b5b4f89c4ca570738f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81186e7e0322dbc1dcedc2d45d6f6caf') in 0.135300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_23.png
+  artifactKey: Guid(7f36b0969338b6d479862707951ad6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_23.png using Guid(7f36b0969338b6d479862707951ad6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708f6cd4d5cab87cdeae2134e3e2edf0') in 0.204912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes16.png
+  artifactKey: Guid(5a35c873b2b2b8743b7e5574c7d7e793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes16.png using Guid(5a35c873b2b2b8743b7e5574c7d7e793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e83aa79a2419e55c0d36d9b055cf83d') in 0.228512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_29.png
+  artifactKey: Guid(71cdf352640d42d448bf7117f7bed48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_29.png using Guid(71cdf352640d42d448bf7117f7bed48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3548a208041f2ebfed4a311f87e950cf') in 0.202372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_24.png
+  artifactKey: Guid(9d527d4ceff2ed14a967de09d42d29c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_24.png using Guid(9d527d4ceff2ed14a967de09d42d29c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f32d8dc2425ece41878fb846b5a158') in 0.176168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_25.png
+  artifactKey: Guid(23627f2660dd8f243a1a59640c3a7364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_25.png using Guid(23627f2660dd8f243a1a59640c3a7364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b84b1a3cd4c599c04ba230df41dd34d') in 0.184994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_03.png
+  artifactKey: Guid(1469a0b31e8946f4597df2dd6ac3dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_03.png using Guid(1469a0b31e8946f4597df2dd6ac3dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b73cfd764bb7f434ecb22e9e491cc20') in 0.160413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Ludiq/Bolt.Flow/IconMap/Bolt.FlowMachine.png
+  artifactKey: Guid(fe5b77214c748b64ba5033f2af1b4c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Bolt.Flow/IconMap/Bolt.FlowMachine.png using Guid(fe5b77214c748b64ba5033f2af1b4c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b866a614a8b99c2910d3ecb89973df3') in 0.317043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Ludiq/Bolt.State/IconMap/Bolt.StateMacro.png
+  artifactKey: Guid(b28af3520c9f270429f383116bd0d368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Bolt.State/IconMap/Bolt.StateMacro.png using Guid(b28af3520c9f270429f383116bd0d368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82550c8025de17c3ea3ba7872c533554') in 0.120063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Ludiq/Bolt.Core/IconMap/Bolt.VariablesSaver.png
+  artifactKey: Guid(c49720c31a0991d48aa5d1fcf9d6d1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Bolt.Core/IconMap/Bolt.VariablesSaver.png using Guid(c49720c31a0991d48aa5d1fcf9d6d1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9739d97cff4cfc32846cc1de8a0de2a7') in 0.143306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000623 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_49.png
+  artifactKey: Guid(5edde0d7658f1db4ab2d7dcf93a651ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_49.png using Guid(5edde0d7658f1db4ab2d7dcf93a651ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0022a37bde1d37267f42c3490cc340a') in 0.155631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_48.png
+  artifactKey: Guid(d770b047a17109048813cfe2139dab06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_48.png using Guid(d770b047a17109048813cfe2139dab06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c5f7688248c410756b4dffa1ad7a52') in 0.234149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_23.png
+  artifactKey: Guid(6abc1d6e0d523df4da91f0b518a43583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_23.png using Guid(6abc1d6e0d523df4da91f0b518a43583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e60e653309518061fe1e7179465fc0d') in 0.189625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_28.png
+  artifactKey: Guid(2a1e7d9b6e02fb642bdf8b534a197d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_28.png using Guid(2a1e7d9b6e02fb642bdf8b534a197d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d99eb68312bf73f584560ef47a44bee') in 0.346211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_16.png
+  artifactKey: Guid(8fd021a144c8d364e93885454ea11b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_16.png using Guid(8fd021a144c8d364e93885454ea11b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce6fb54aea40f157ac74a694b092400') in 0.164748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_46.png
+  artifactKey: Guid(0850a98c2673fe5448b0ffdf7c4965fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_46.png using Guid(0850a98c2673fe5448b0ffdf7c4965fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26009b8ca82ad8f84cb1727a9c0fd6b1') in 0.142536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_26.png
+  artifactKey: Guid(e12d0500605d067469bce25754b2814c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_26.png using Guid(e12d0500605d067469bce25754b2814c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7699d82c514eabe60a275714edd6b68b') in 0.124916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair10.png
+  artifactKey: Guid(458c6e2edf7af3c498337758f018d4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair10.png using Guid(458c6e2edf7af3c498337758f018d4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8688fef30e6f25ba68456e9ca4205e2') in 0.197368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_04.png
+  artifactKey: Guid(4967c1d97f052b94da9e3cea6b877ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_04.png using Guid(4967c1d97f052b94da9e3cea6b877ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3d859652b9706605502d27523c1268') in 0.356520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair11.png
+  artifactKey: Guid(f5b9083dfa1515c44ad0952c5ace1e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair11.png using Guid(f5b9083dfa1515c44ad0952c5ace1e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658460b6e705b805341eca3e78030b2a') in 0.219754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/Ludiq/Bolt.Core/IconMap/Bolt.Variables.png
+  artifactKey: Guid(f4241d97facf9bf4881222c2789a4c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Bolt.Core/IconMap/Bolt.Variables.png using Guid(f4241d97facf9bf4881222c2789a4c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6dae21323082ac984ff8c01ff07b82') in 0.184001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_32.png
+  artifactKey: Guid(6e2c2bf68f95bc4489d2995388f7b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_32.png using Guid(6e2c2bf68f95bc4489d2995388f7b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc0304d0346262564f0c4fb1e8d2d0e') in 0.242393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair12.png
+  artifactKey: Guid(493ab05905e202d49877c0b1ec75854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair12.png using Guid(493ab05905e202d49877c0b1ec75854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9438ac44b3d079bfbb86d6903fd6617') in 1.750570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001930 seconds.
+  path: Assets/Ludiq/Bolt.Core/IconMap/Bolt.SceneVariables.png
+  artifactKey: Guid(85b733ff25d1eee479a6d510562bd0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Bolt.Core/IconMap/Bolt.SceneVariables.png using Guid(85b733ff25d1eee479a6d510562bd0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e052f05965202c3624eebb67053b6c') in 0.502593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Ludiq/Bolt.Core/IconMap/Bolt.AnimatorMessageListener.png
+  artifactKey: Guid(21763ada12b1de54a9de03382ecdf3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Bolt.Core/IconMap/Bolt.AnimatorMessageListener.png using Guid(21763ada12b1de54a9de03382ecdf3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bd919f1fbe8ccccf24cfa0fb3bfcb8') in 1.402876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_18.png
+  artifactKey: Guid(19a4edef240297a4489cf71af9a60070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_18.png using Guid(19a4edef240297a4489cf71af9a60070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9211693f1f1467b3bc0a416e441edf') in 0.830782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000848 seconds.
+  path: Assets/Ludiq/Bolt.Flow/IconMap/Bolt.FlowMacro.png
+  artifactKey: Guid(b33b72199830c924da117a3cf9f3b69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Bolt.Flow/IconMap/Bolt.FlowMacro.png using Guid(b33b72199830c924da117a3cf9f3b69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed535240d5c0094fedab87b97caf514') in 0.536231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Textures/Tanks/images.jpg
+  artifactKey: Guid(9b9a5daa7f40a574e877dde7f0495b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Tanks/images.jpg using Guid(9b9a5daa7f40a574e877dde7f0495b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 1.797504 seconds  code(4) message(Build asset version error: assets/textures/tanks/images.jpg in SourceAssetDB has modification time of '2021-12-13T14:12:08.7370988Z' while content on disk has modification time of '2021-12-13T14:12:47.3190419Z')
+  ERROR: Build asset version error: assets/textures/tanks/images.jpg in SourceAssetDB has modification time of '2021-12-13T14:12:08.7370988Z' while content on disk has modification time of '2021-12-13T14:12:47.3190419Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.553363 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f937b6d9f191503b0957c4cb3ad77c') in 2.895108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_02.png
+  artifactKey: Guid(405ae22ce74353943b0f5c1df7c66fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_02.png using Guid(405ae22ce74353943b0f5c1df7c66fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddf8c66b5264a5c066b6c60710d819f') in 0.215627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000807 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair06.png
+  artifactKey: Guid(e05e1529d615e9547a2fea3812126bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair06.png using Guid(e05e1529d615e9547a2fea3812126bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3502e517974f66abc16db02d9f1ed5d6') in 0.212097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_22.png
+  artifactKey: Guid(6b55cee5d66e55a408e639165f9cd5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_22.png using Guid(6b55cee5d66e55a408e639165f9cd5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19edc9cc970af54b14f47d70fbd9e509') in 0.204542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_30.png
+  artifactKey: Guid(6b1cd9754f247004faae6bada2fc57c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_30.png using Guid(6b1cd9754f247004faae6bada2fc57c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3d3704fd66c202b8912eabbc79f3c4') in 0.163291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes19.png
+  artifactKey: Guid(ee7037b294131ae4b893bbc2b50a3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes19.png using Guid(ee7037b294131ae4b893bbc2b50a3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ea43aa1077ab9c455fde8f0e53b10b') in 0.182928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair01.png
+  artifactKey: Guid(80f69ed5e1a5dce4a994144d2c6ffece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair01.png using Guid(80f69ed5e1a5dce4a994144d2c6ffece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b26b52e8e5c02b9ec840d4eee11d5f') in 0.427633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_26.png
+  artifactKey: Guid(ee88b64c9491cea46ad85f8a81830ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_26.png using Guid(ee88b64c9491cea46ad85f8a81830ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc80d177a9cd694a69b92f0400dec413') in 0.160195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_15.png
+  artifactKey: Guid(5c3285f1d06195a4c94f1cf47d7f7f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_15.png using Guid(5c3285f1d06195a4c94f1cf47d7f7f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac2966334aab6c8011bc9364a60a409') in 0.106496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_01.png
+  artifactKey: Guid(3003e4fde43258d4ba9ccb61965a1b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_01.png using Guid(3003e4fde43258d4ba9ccb61965a1b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953cf8dd0640147962dea3efbdbbae02') in 0.161751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_14.png
+  artifactKey: Guid(2ea427139663c094c8ffc2bb7bc74456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_14.png using Guid(2ea427139663c094c8ffc2bb7bc74456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a49f98a55c6418b04f32e3dad2e5c7') in 0.183135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_20.png
+  artifactKey: Guid(f463531e399aafb448283ed5e6c35c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_20.png using Guid(f463531e399aafb448283ed5e6c35c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01909d302f5996f27fb992ca5b41d8a') in 0.344813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_09.png
+  artifactKey: Guid(f2e4d4fe838a991438485c4996ae7633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_09.png using Guid(f2e4d4fe838a991438485c4996ae7633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aafe3cd0ad3e1b7f9df08f36f0e31b7') in 0.165596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_27.png
+  artifactKey: Guid(4bc84a9de20ab9d4cac40614ad9f8fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_27.png using Guid(4bc84a9de20ab9d4cac40614ad9f8fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876d718d3fe13a66b61d0fec80a34c5f') in 0.264694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair09.png
+  artifactKey: Guid(443cb465e41deb44f98304d51d804930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/hair09.png using Guid(443cb465e41deb44f98304d51d804930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7207d2eeb3a187597e1425529d1593c3') in 0.107193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_40.png
+  artifactKey: Guid(826c675988b664a41a681e9cd5aa255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_40.png using Guid(826c675988b664a41a681e9cd5aa255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e67e4958c9ca3fc17d20fdf3f8dad4') in 0.603521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_03.png
+  artifactKey: Guid(d88b76a546c0ba84d8fee4a8d974058f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_03.png using Guid(d88b76a546c0ba84d8fee4a8d974058f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f07f500a0a763856354c0219d32703e') in 0.362275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_22.png
+  artifactKey: Guid(2da26068c5a146c478702e0a43d02c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_22.png using Guid(2da26068c5a146c478702e0a43d02c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53845d2fa1e3527c000a6bb66e0dc53') in 0.914634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/Ludiq/Bolt.State/IconMap/Bolt.StateMachine.png
+  artifactKey: Guid(78beaf4c6e26bf745b5bc7dfe5d007be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Bolt.State/IconMap/Bolt.StateMachine.png using Guid(78beaf4c6e26bf745b5bc7dfe5d007be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4b1404e45cb6251423d353d79a8d11') in 0.622257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_25.png
+  artifactKey: Guid(67352e813e688a44b87ae9a818866ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body01_25.png using Guid(67352e813e688a44b87ae9a818866ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273ee0e0964f655a8fc5e00f1a53c98c') in 0.601272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_37.png
+  artifactKey: Guid(671da37a6eb750f41af7fb220e354575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_37.png using Guid(671da37a6eb750f41af7fb220e354575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f0852b67844bec40c3c38d1be6a9e7') in 0.187254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes18.png
+  artifactKey: Guid(c755ac8810062074d94ec3f2a0214557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/eyes18.png using Guid(c755ac8810062074d94ec3f2a0214557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5712df5b79c5beea80c0db1320832b') in 0.281369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.135654 seconds.
+  path: Assets/NewBrush.brush
+  artifactKey: Guid(48b8dfaac83306e4ea2862a490601127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBrush.brush using Guid(48b8dfaac83306e4ea2862a490601127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed1cce542d6f2f6cb503d28b91f08cf') in 0.903385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.201534 seconds.
+  path: Assets/Textures/Tanks/images.jpg
+  artifactKey: Guid(9b9a5daa7f40a574e877dde7f0495b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Tanks/images.jpg using Guid(9b9a5daa7f40a574e877dde7f0495b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017951 seconds  code(4) message(Build asset version error: assets/textures/tanks/images.jpg in SourceAssetDB has modification time of '2021-12-13T14:12:08.7370988Z' while content on disk has modification time of '2021-12-13T14:12:47.3190419Z')
+  ERROR: Build asset version error: assets/textures/tanks/images.jpg in SourceAssetDB has modification time of '2021-12-13T14:12:08.7370988Z' while content on disk has modification time of '2021-12-13T14:12:47.3190419Z'
+========================================================================
+Received Import Request.
+  Time since last request: 155.380596 seconds.
+  path: Assets/NewBrush.brush
+  artifactKey: Guid(48b8dfaac83306e4ea2862a490601127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBrush.brush using Guid(48b8dfaac83306e4ea2862a490601127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc9809a13eaa4c746d317cbf5f79e34') in 0.231244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.684918 seconds.
+  path: Assets/Textures/Tanks/stone.jpg
+  artifactKey: Guid(116e8b07c26f47f4dae4375ee4725fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Tanks/stone.jpg using Guid(116e8b07c26f47f4dae4375ee4725fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035cb03541bcf5708a828d8b855f17a4') in 0.476225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.506837 seconds.
+  path: Assets/Textures/block/saturnStone.png
+  artifactKey: Guid(1242a681ff0f79841839c7f871dc207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/block/saturnStone.png using Guid(1242a681ff0f79841839c7f871dc207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f29ba0984219e838ea030efeb55f6ea') in 2.307971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.612156 seconds.
+  path: Assets/Textures/Tanks/images.jpg
+  artifactKey: Guid(9b9a5daa7f40a574e877dde7f0495b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Tanks/images.jpg using Guid(9b9a5daa7f40a574e877dde7f0495b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221ef04a6c54e76d8a711ebf65e12d30') in 0.370866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.354415 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_33.png
+  artifactKey: Guid(b8b35093a6fcb4f4ea1f31cc68087cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_33.png using Guid(b8b35093a6fcb4f4ea1f31cc68087cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8626418064fdea0f44bbed244ccb8bf9') in 7.536257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_35.png
+  artifactKey: Guid(343df95865b2c5143bf54fcdc2474789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_35.png using Guid(343df95865b2c5143bf54fcdc2474789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd3a21875c6c02bacc2b6065b1d037a') in 1.332936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_06.png
+  artifactKey: Guid(d577ba3dc37840f40979f700f10c566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_06.png using Guid(d577ba3dc37840f40979f700f10c566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e576982e4149fdab2813671d53984b') in 1.251814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_42.png
+  artifactKey: Guid(99c894af997888446833432589aa2131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_42.png using Guid(99c894af997888446833432589aa2131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e0f37c4c0f39725489a7562ae9ed56') in 0.945198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001349 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_36.png
+  artifactKey: Guid(aad33900bf91f3e479c45c58c4f44a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_36.png using Guid(aad33900bf91f3e479c45c58c4f44a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd06f5d2c64c482aad8c976af1a82a13') in 0.254996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_01.png
+  artifactKey: Guid(034d7213552359a4e96cc736591fa56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_01.png using Guid(034d7213552359a4e96cc736591fa56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da51769976d955f2defc6fcd970af0a') in 0.345156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_09.png
+  artifactKey: Guid(b50479dc438bbf949bdd9449061ba0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_09.png using Guid(b50479dc438bbf949bdd9449061ba0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c35a518d411eda059fa156dbbd2332') in 1.178354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_11.png
+  artifactKey: Guid(28d97a2aa0f2e194ba038e3373eb698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_11.png using Guid(28d97a2aa0f2e194ba038e3373eb698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5289fe1b823810b55b568c42d13e502e') in 0.278124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000715 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_04.png
+  artifactKey: Guid(493e7ee600ad845429dfcf0f4127130c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_04.png using Guid(493e7ee600ad845429dfcf0f4127130c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d71c270d37713501586d246b27d517') in 0.232117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000959 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_38.png
+  artifactKey: Guid(a7c5d4950af31f64c88218507a29eba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_38.png using Guid(a7c5d4950af31f64c88218507a29eba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb6d2c72fd248f63a7962f83c30020d') in 0.585011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00.png
+  artifactKey: Guid(fe6415fd523f6bf48bf68ba7c235ba4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00.png using Guid(fe6415fd523f6bf48bf68ba7c235ba4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c075fedde7392f45b172dd02dfe67e2') in 0.301252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_12.png
+  artifactKey: Guid(d6d67e9a62c2a3843a1821db98dcc71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_12.png using Guid(d6d67e9a62c2a3843a1821db98dcc71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5aceab481b3d75d4409e1a98358dd60') in 0.214296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_10.png
+  artifactKey: Guid(c4cd0b975719a3b44b94e3e76313a48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_10.png using Guid(c4cd0b975719a3b44b94e3e76313a48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b186ee8f6c311631f40b5735f6b97bb5') in 0.698927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002213 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_08.png
+  artifactKey: Guid(6c401877c574fee4f8bf4c0d993c8ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_08.png using Guid(6c401877c574fee4f8bf4c0d993c8ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c90c48e7f481331754f19dd16c895bf') in 0.413595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_37.png
+  artifactKey: Guid(c821b4ac71ed8a647819d91f4b1f386f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_37.png using Guid(c821b4ac71ed8a647819d91f4b1f386f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533915ecf140582ecafbf9f0be8275f1') in 0.396582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_03.png
+  artifactKey: Guid(34f6ea3a11e4698438d61de8ae63a914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_03.png using Guid(34f6ea3a11e4698438d61de8ae63a914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37d167faa35903545283024cc755c26') in 0.843165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_40.png
+  artifactKey: Guid(a6c96affaf115444d88cec9d4cd1b99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_40.png using Guid(a6c96affaf115444d88cec9d4cd1b99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2152edb0180be4afa72445268b925438') in 0.291418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_39.png
+  artifactKey: Guid(c00f57a15ff80c14c87814bf206ef2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_39.png using Guid(c00f57a15ff80c14c87814bf206ef2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9c0bff4a69043d194bc60f6d231706') in 0.675110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_41.png
+  artifactKey: Guid(072546fe456554c47bb4e1948dc44f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_41.png using Guid(072546fe456554c47bb4e1948dc44f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b3a9821bf027ccec6d29441e0a8311') in 0.362928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_02.png
+  artifactKey: Guid(b3bcc855d5fb5f14995fc04558d55c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_02.png using Guid(b3bcc855d5fb5f14995fc04558d55c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe13be4efe057c9a1cd672939e2b843') in 0.278092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000760 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_07.png
+  artifactKey: Guid(2bed4850b83752347ab6de8e1bb9ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_07.png using Guid(2bed4850b83752347ab6de8e1bb9ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc122b092d4998f82b308a6473460238') in 0.508260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_13.png
+  artifactKey: Guid(df2f6aba381b9e446b18b345726778cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_13.png using Guid(df2f6aba381b9e446b18b345726778cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ef78e60fcfac0b4d40d5c528fac40c') in 0.213051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_34.png
+  artifactKey: Guid(cb6ca9f6adbca6c4cbc4e4f51b92c499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_34.png using Guid(cb6ca9f6adbca6c4cbc4e4f51b92c499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5956c6b6109b05f9f4ee8e7e4138c4') in 0.263371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_05.png
+  artifactKey: Guid(b136d4e637b59cb4193067d25d1be5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_05.png using Guid(b136d4e637b59cb4193067d25d1be5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018bf2a28ad49eea2dae6b6b6099ee20') in 0.302085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_43.png
+  artifactKey: Guid(0e8362e44eb91c34d8509701774b75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/arm_43.png using Guid(0e8362e44eb91c34d8509701774b75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c85a4b2803cc8150d2c7920d2052bb') in 0.397550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_00.png
+  artifactKey: Guid(8ebc3499d35543141988c5bfeed0af70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerainGeneration/ProceduralToolkit/Examples/CharacterGenerator/Sprites/body00_00.png using Guid(8ebc3499d35543141988c5bfeed0af70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13eac67d7d56653695b0d3c6ef2d71d8') in 0.377628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3713.900846 seconds.
+  path: Assets/Textures/Tanks/Materials
+  artifactKey: Guid(60aafbd253cdba6488e27abb98e4cf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Tanks/Materials using Guid(60aafbd253cdba6488e27abb98e4cf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8736cec5141a0ce971ef3ca6f2064ec3') in 0.257629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 799.603791 seconds.
+  path: Assets/3d/fonar.mtl
+  artifactKey: Guid(c875c42835ca1e3499ce0c286842c077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/fonar.mtl using Guid(c875c42835ca1e3499ce0c286842c077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5537d3ea0f8538c0351d75f299a20f17') in 7.586795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.823834 seconds.
+  path: Assets/3d/fonar.obj
+  artifactKey: Guid(384a2556567750842ad1ba73769d3b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/fonar.obj using Guid(384a2556567750842ad1ba73769d3b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255b91c18b6db25bc5593d6e4929588e') in 27.717648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 696.275293 seconds.
+  path: Assets/Toolbag/shelter simple/shelter simple.fbx
+  artifactKey: Guid(81cc30c27e7f460bd9d31f0d8f3e86a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toolbag/shelter simple/shelter simple.fbx using Guid(81cc30c27e7f460bd9d31f0d8f3e86a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b67ba369d7be8eed7210d0db3a91334') in 23.862955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024866 seconds.
+  path: Assets/Toolbag
+  artifactKey: Guid(8ed8582074be68140a6616f419c58066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toolbag using Guid(8ed8582074be68140a6616f419c58066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd72f8735370d2d475ca280985593c59') in 0.325482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.456328 seconds.
+  path: Assets/Toolbag/shelter simple
+  artifactKey: Guid(ac15a05613f81a04f85b79bd652b2a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toolbag/shelter simple using Guid(ac15a05613f81a04f85b79bd652b2a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906e6a96597411dffd428d9ccba383b8') in 0.005104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 668.772450 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(072ac0110c4a3cb4693ed6535b0cc168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(072ac0110c4a3cb4693ed6535b0cc168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a598e45866cafdb6fe73157cdce8f1') in 23.626193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.588409 seconds.
+  path: Assets/Textures/Tanks/сщтскуеф.jpg
+  artifactKey: Guid(3541f2cf7c4bf814fb8802e92236be69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Tanks/сщтскуеф.jpg using Guid(3541f2cf7c4bf814fb8802e92236be69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9572ee87d68619360046191a7b6d861d') in 2.660040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.666840 seconds.
+  path: Assets/Toolbag/shelter simple/Materials/Textures/INSIDE_a.tga
+  artifactKey: Guid(2f130d59b3de5605ddc4bcd3ebbd8b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toolbag/shelter simple/Materials/Textures/INSIDE_a.tga using Guid(2f130d59b3de5605ddc4bcd3ebbd8b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8bed227b84e05d628a249dcd553694') in 2.333921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Toolbag/shelter simple/Materials/Textures/INSIDE_h.tga
+  artifactKey: Guid(4a885f634bb9bb362ddbdc0bdf60b000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toolbag/shelter simple/Materials/Textures/INSIDE_h.tga using Guid(4a885f634bb9bb362ddbdc0bdf60b000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3bbb21c5bc7b6bed97b623f8436647') in 1.068464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/Toolbag/shelter simple/Materials/Textures/INSIDE_e.tga
+  artifactKey: Guid(88fc9b822c9c9ab1ed44433048a30a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toolbag/shelter simple/Materials/Textures/INSIDE_e.tga using Guid(88fc9b822c9c9ab1ed44433048a30a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe22f7d04a6cc78559b7bdcabfe216f5') in 0.981077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/Toolbag/shelter simple/Materials/Textures/INSIDE_n.tga
+  artifactKey: Guid(d8697d97d22f54fa6cdb35f7fdbc6e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toolbag/shelter simple/Materials/Textures/INSIDE_n.tga using Guid(d8697d97d22f54fa6cdb35f7fdbc6e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a69406285dbee2ed3a488ee6c1a0b2') in 0.582434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000609 seconds.
+  path: Assets/Toolbag/shelter simple/Materials/Textures/INSIDE_s.tga
+  artifactKey: Guid(55e3c11abfe6889011171d634866441a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toolbag/shelter simple/Materials/Textures/INSIDE_s.tga using Guid(55e3c11abfe6889011171d634866441a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca54addde84b986067cded81346c1fd5') in 0.814596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/Toolbag/shelter simple/Materials/Textures/INSIDE_ao.tga
+  artifactKey: Guid(e4fc22cd6b360d4950632e0d61749bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toolbag/shelter simple/Materials/Textures/INSIDE_ao.tga using Guid(e4fc22cd6b360d4950632e0d61749bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1648af2c100bf79c28d3044522cc30ce') in 0.218894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1256.075326 seconds.
+  path: Assets/3d/uploads_files_2534779_Archive/Shovel Height.tga
+  artifactKey: Guid(58647d08c741a944db7d4c3407f5d39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/uploads_files_2534779_Archive/Shovel Height.tga using Guid(58647d08c741a944db7d4c3407f5d39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a26526841b617373e5e2d3741463ac9') in 11.497846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076080 seconds.
+  path: Assets/3d/uploads_files_2534779_Archive/Gray Camo.jpg
+  artifactKey: Guid(6edb1fe5cb5b8924882c8ae49285babb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/uploads_files_2534779_Archive/Gray Camo.jpg using Guid(6edb1fe5cb5b8924882c8ae49285babb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b094c44996ab300f69f1b699e6a3dbe5') in 0.702918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000813 seconds.
+  path: Assets/3d/uploads_files_2534779_Archive/Roughness Metall Rope.tif
+  artifactKey: Guid(4acd02174e0936845ad378a22902ac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/uploads_files_2534779_Archive/Roughness Metall Rope.tif using Guid(4acd02174e0936845ad378a22902ac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c2dc184485861e61f47ac07b6342b2') in 5.483534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/3d/uploads_files_2534779_Archive/Shovel Base Color.tga
+  artifactKey: Guid(f63942f4bb7c60b41a15d4c672ddfee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/uploads_files_2534779_Archive/Shovel Base Color.tga using Guid(f63942f4bb7c60b41a15d4c672ddfee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd337c86ba83a62bdbc55e09d18c21e') in 1.077611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/3d/uploads_files_2534779_Archive/Hight Metall Rope.tif
+  artifactKey: Guid(7c28d6ca3bfd17a4f9fcecf61b9682df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/uploads_files_2534779_Archive/Hight Metall Rope.tif using Guid(7c28d6ca3bfd17a4f9fcecf61b9682df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d5a91ec3e0250b103b37dfdec0a739') in 0.224276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.632881 seconds.
+  path: Assets/3d/uploads_files_2534779_Archive
+  artifactKey: Guid(5e9ab7cf65f9b164da6e20ad9f58fe10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/uploads_files_2534779_Archive using Guid(5e9ab7cf65f9b164da6e20ad9f58fe10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0961da11d3fea48816ae2a66a5af5a') in 1.025789 seconds 

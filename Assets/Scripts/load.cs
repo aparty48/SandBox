@@ -8,16 +8,12 @@ public class load : MonoBehaviour
     void Start()
     {
 
-        SaveSetting data = SaveLoadSet.LoadSettings(); //Получение данных
-        if (!data.Equals(null)) //Если данные есть
-		{
-
-		}
+    
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

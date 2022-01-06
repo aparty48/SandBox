@@ -4,7 +4,8 @@ using UnityEngine;
 public class World : MonoBehaviour
 {
 	// Start is called before the first frame update
-	public GameObject dl;
+	[SerializeField]
+	private GameObject dl;
 	private int Timetick = 32400;
 	public int days = 0;
 	void Start()
@@ -17,11 +18,11 @@ public class World : MonoBehaviour
 	{
 
 	}
-	void FixedUpdate()
+	private void FixedUpdate()
 	{
-		if (Timetick < 72000) Timetick++;
-		else { Timetick = 0; days++; }
-		dl.transform.rotation = Quaternion.Euler(Timetick / 360, days, 0.0f);
+			if (Timetick < 72000) Timetick++;
+			else Timetick = 0; days++;
+			dl.transform.rotation = Quaternion.Euler(Timetick / 360, days, 0.0f);
 	}
 
 }

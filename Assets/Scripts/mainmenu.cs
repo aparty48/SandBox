@@ -4,6 +4,7 @@ using UnityEngine;
 using System.IO;
 using System;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class mainmenu : MonoBehaviour
 {
@@ -21,30 +22,38 @@ public class mainmenu : MonoBehaviour
     public Sprite defaulltIconWorld;
 
     public int seed;
-    public string nameWorld=@"";
+    public string nameWorld = @"";
 
 
     string [] d;
     // Start is called before the first frame update
     void Start()
     {
-      if(!Directory.Exists(Application.persistentDataPath + "/worlds"))
-      {
-        System.IO.Directory.CreateDirectory(Application.persistentDataPath + "/worlds");
-      }
-      d = Directory.GetDirectories(Application.persistentDataPath + "/worlds");
-      for(int pi=0;pi<d.Length;pi++)
-      {
-        wf.Add(new worldInfo(){name="",date="",seed=""});
-      }
+        if(!Directory.Exists(Application.persistentDataPath + "/worlds"))
+        {
+            System.IO.Directory.CreateDirectory(Application.persistentDataPath + "/worlds");
+        }
+        d = Directory.GetDirectories(Application.persistentDataPath + "/worlds");
+        for(int pi=0;pi<d.Length;pi++)
+        {
+            wf.Add(new worldInfo(){name="",date="",seed=""});
+        }
+        //if(!File.Exists(Application.persistentDataPath + "/miniGames.txt"))
+        //{
+        //  using (FileStream fs = File.Create(Application.persistentDataPath + "/miniGames.txt")){}
+        //  continue;
+        //}
     }
 
     // Update is called once per frame
-    
 
+    public void PlayButtonTanks()
+    {
+        SceneManager.LoadScene("Tanks");
+    }
     public void playBtnOn()
     {
-       
+
       uisc.inoe = !uisc.inoe;
         worldMenu.gameObject.SetActive(uisc.inoe);
         btnminmenu.SetActive(!uisc.inoe);
@@ -61,32 +70,31 @@ public class mainmenu : MonoBehaviour
         seed = (int)long.Parse(inp.text);
     }
     public void NameWorld(InputField inp)
-	{
+	  {
         nameWorld = inp.text;
-	}
+	  }
     public void CreateWorldData()
-	{
+	  {
         if (!Directory.Exists(Application.persistentDataPath + "/worlds"))
         {
             System.IO.Directory.CreateDirectory(Application.persistentDataPath + "/worlds");
         }
         if(nameWorld=="")
-		{
+		    {
             System.Random rd = new System.Random();
-             
-            nameWorld = rd.Next(1, 10000).ToString()+ rd.Next(1, 10000).ToString()+ rd.Next(1, 10000).ToString(); 
+            nameWorld = rd.Next(1, 10000).ToString()+ rd.Next(1, 10000).ToString()+ rd.Next(1, 10000).ToString();
         }
         if (!File.Exists(Application.persistentDataPath + "/worlds/" + nameWorld + "/confw.txt"))
         {
-            System.IO.Directory.CreateDirectory(Application.persistentDataPath + "/worlds/"+nameWorld);
+            System.IO.Directory.CreateDirectory(Application.persistentDataPath + "/worlds/" + nameWorld);
             using (FileStream fs = new FileStream(Application.persistentDataPath + "/worlds/" + nameWorld + "/confw.txt",FileMode.Create)) {}
             using(StreamWriter sw = new StreamWriter(Application.persistentDataPath + "/worlds/" + nameWorld + "/confw.txt", false))
-			{
+			      {
                 DateTime da = new DateTime();
                 sw.WriteLine(nameWorld);
                 sw.WriteLine(da);
                 sw.WriteLine(seed.ToString());
-			}
+			      }
         }
         gn.seed = seed;
         gn.Generate();

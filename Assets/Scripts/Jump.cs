@@ -4,51 +4,42 @@ using UnityEngine;
 
 public class Jump : MonoBehaviour
 {
-
-    public LayerMask GroundLayer = 1; // 1 == "Default"
+    [SerializeField]
+    private LayerMask GroundLayer = 1; // 1 == "Default"
+    [SerializeField]
     private CapsuleCollider _collider;//player colader
+    [SerializeField]
     public float jmp=0;
+    [SerializeField]
     public UIScript uis;
 
     private Rigidbody _rb;//rigidbody игрока
     private bool _isGrounded;//земля под игороком
-    public float jumForse;//сила прижка
+    [SerializeField]
+    private float jumForse;//сила прижка
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         _rb = GetComponent<Rigidbody>();//получаем ригид боди игрока
         _collider = GetComponent<CapsuleCollider>();//получаем колайдер игрока
         //т.к. нам не нужно что бы персонаж мог падать сам по-себе без нашего на то указания.
         //то нужно заблочить поворот по осях X и Z
-
         _rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationY;//блокируем поворот игрока по осям Х и z
-
         //  Защита от дурака
         if (GroundLayer == gameObject.layer)
             Debug.LogError("Player SortingLayer must be different from Ground  SourtingLayer!");
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         JumpL();
     }
 
     private void JumpL(){
-
-        if (Input.GetAxis("Jump")> 0 || jmp>0f){
-
-            if (_isGrounded)
-            {
-                uis.jumpForse=9f;
-                _rb.AddForce(Vector3.up*jumForse);
-            }
-            else
-            {
-               uis.jumpForse=0f;
-            }
-        }
+        if (Input.GetAxis("Jump")> 0 || jmp>0f)
+            if (_isGrounded) _rb.AddForce(Vector3.up*jumForse);
     }
     private void OnCollisionEnter(Collision collision) { IsGroundedUpdate(collision, true); }
     private void OnCollisionExit(Collision collision) { IsGroundedUpdate(collision, false); }

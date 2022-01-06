@@ -62,25 +62,16 @@
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\RoofGenerator.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\LowPolyTerrainGenerator\LowPolyTerrainGeneratorConfigurator.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\Dodecahedron.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\VoxelChunk.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\FlatSphere.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Vector2i.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Mazes\MazeGeneratorConfigurator.cs" />
     <Compile Include="Assets\Scripts\mini script\clk.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\CellularAutomaton\CellState.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\MeshDraftPrimitives.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\TerrainCutters\TerrainCutterLegacy.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\Icosahedron.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\EditorUtils.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\HeightFeeders\IHeightFeeder.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Test\DiggerPhysicsTester.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\Prism.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\DiggerPhysics.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\BrushType.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\VerticalLayout.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\Teardrop.cs" />
     <Compile Include="Assets\Scripts\mini script\Drop.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\TerrainCutters\TerrainCutter20193.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\Tetrahedron.cs" />
     <Compile Include="Assets\TerainGeneration\Simple\TerrainControllerSimple.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\ChairGenerator\ChairGenerator.cs" />
@@ -90,7 +81,6 @@
     <Compile Include="Assets\Scripts\mini script\clickZoneScript.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\GizmosE.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Common\ConfiguratorBase.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Vector3i.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\ProceduralFacadePanels.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Draw.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\ChairGenerator\ChairGeneratorConfigurator.cs" />
@@ -101,117 +91,78 @@
     <Compile Include="Assets\Scripts\Save.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\CharacterGenerator\CharacterGenerator.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Breakout\Breakout.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\TerrainCutters\TerrainCutter.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\TerrainCutters\CutEntry.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Boids\BoidController.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Common\TextControl.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\BuildingGeneratorBase.cs" />
-    <Compile Include="Assets\Digger\Demo\DiggerNavMeshUsageExample.cs" />
     <Compile Include="Assets\TerainGeneration\Simple\GenerateMeshSimple.cs" />
     <Compile Include="Assets\Scripts\CAmeraNI.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Mazes\Cell.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\FlatTeardrop.cs" />
     <Compile Include="Assets\TerainGeneration\Advanced\PlaceObjects.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\ChunkTriggerBounds.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\Plane.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\ModificationArea.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\FacadeLayout.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Mazes\Edge.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\DiggerSystem.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Mazes\Maze.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Jobs\VoxelModificationJob.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\ArrayE.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\IFacadeLayout.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Common\ButtonControl.cs" />
     <Compile Include="Assets\TerainGeneration\Advanced\GenerateMesh.cs" />
-    <Compile Include="Assets\Digger\Demo\FlyCamera.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\RandomE.cs" />
     <Compile Include="Assets\Scripts\Generatorworlda.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\ListPool.cs" />
     <Compile Include="Assets\Scripts\Noise.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\CellularAutomaton\CellularAutomatonConfigurator.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Jobs\MarchingCubesJob.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\ChairGenerator\Backs.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Vector2Int.cs" />
     <Compile Include="Assets\Scripts\mini script\mainbuto.cs" />
     <Compile Include="Assets\Scripts\Build.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Breakout\Brick.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Test\PhysicsTest.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\ColorE.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Vector2iComparer.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\IFacadePanel.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\ChairGenerator\Armrests.cs" />
     <Compile Include="Assets\Scripts\Jump.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Jobs\MarchingCubesTables.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\ModificationParameters.cs" />
     <Compile Include="Assets\Scripts\Pad.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Common\SliderControl.cs" />
-    <Compile Include="Assets\Digger\Demo\NavTest.cs" />
     <Compile Include="Assets\Scripts\UIScript.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Mazes\MazeGenerator.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\VectorE.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\TerrainUtils.cs" />
     <Compile Include="Assets\Scripts\World.cs" />
     <Compile Include="Assets\Scripts\Console.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\LoadType.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\Octahedron.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\MeshE.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\BuildingGeneratorConfigurator.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\HeightFeeders\TerrainHeightFeeder.cs" />
     <Compile Include="Assets\Scripts\worldload.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\Cylinder.cs" />
-    <Compile Include="Assets\Digger\Demo\DiggerRuntimeUsageExample.cs" />
     <Compile Include="Assets\Scripts\mainmenu.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Jobs\VoxelKernelModificationJob.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\FlatSpheroid.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Versioning\VersionInfo.cs" />
     <Compile Include="Assets\TerainGeneration\Advanced\TerrainController.cs" />
     <Compile Include="Assets\Scripts\setting.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Vector3iComparer.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Jobs\VoxelRefreshJob.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\MicroSplatSync.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Chunk.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Runtime\DiggerMasterRuntime.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\Sphere.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Common\SkyBoxGenerator.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\CharacterGenerator\NameGenerator.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\ActionType.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\Spheroid.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Common\CameraRotator.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\ColliderComparer.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Jobs\NativeCollectionsPool.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\BuildingGenerator.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\ChunkLODGroup.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\TextureE.cs" />
     <Compile Include="Assets\Scripts\cameraRotate.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Jobs\VoxelGenerationJob.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Voxel.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\TerrainColliderHoleComponent.cs" />
     <Compile Include="Assets\Scripts\load.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Common\ToggleControl.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\MeshDraft.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Breakout\BreakoutConfigurator.cs" />
     <Compile Include="Assets\Scripts\Chat.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\HorizontalLayout.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\DiggerMaster.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\CellularAutomaton\CellularAutomaton.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Utils.cs" />
     <Compile Include="Assets\Scripts\Cashe.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\MeshPrimitives.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\TerrainMaterialType.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\LowPolyTerrainGenerator\LowPolyTerrainGenerator.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\ChunkObject.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\Hexahedron.cs" />
-    <Compile Include="Assets\Digger\Sources\Digger\Runtime\DiggerNavMeshRuntime.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\DebugE.cs" />
     <Compile Include="Assets\Scripts\DataBase.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\ChairGenerator\Stretchers.cs" />
-    <Compile Include="Assets\Digger\Demo\README.cs" />
+    <Compile Include="Assets\Scripts\Tanks\Main.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Engine.xml" />
-     <None Include="Assets\Digger\Shaders\Mesh\LWRP\DiggerLWRPMeshLitInput.hlsl" />
      <None Include="Assets\Ludiq\Bolt\Documentation\0. READ ME FIRST.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TerainGeneration\ProceduralToolkit\Shaders\Standard Vertex Color.shader" />
@@ -220,29 +171,16 @@
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\mscorlib.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Security.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Framework.xml" />
-     <None Include="Assets\Digger\Shaders\Mesh\URP\DiggerURPMeshLitPasses.hlsl" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Core.xml" />
-     <None Include="Assets\Digger\Shaders\Mesh\URP\DiggerURPMeshLit-Pass1.shader" />
      <None Include="Assets\Ludiq\Assemblies\sqlite3.dll" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Routing.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.DirectoryServices.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Configuration.Install.xml" />
-     <None Include="Assets\Digger\Shaders\Mesh\LWRP\DiggerLWRPMeshLit-Pass2.shader" />
-     <None Include="Assets\Digger\Shaders\Terrain\URP\DiggerURPTerrainLitBase.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Entity.Design.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.Web.xml" />
-     <None Include="Assets\Digger\Shaders\Terrain\Standard\Cuttable-Triplanar-AddPass.shader" />
-     <None Include="Assets\Digger\Shaders\Mesh\Standard\WithTextureArray\MeshTriplanarStandardTxtArray.cginc" />
-     <None Include="Assets\Digger\Shaders\Terrain\HDRP\DiggerTerrainLit_Splatmap.hlsl" />
-     <None Include="Assets\Digger\Shaders\Mesh\HDRP\DiggerTerrainLit.shader" />
-     <None Include="Assets\Digger\Shaders\Mesh\URP\DiggerURPMeshLit-Pass2.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Entity.Design.xml" />
      <None Include="Assets\TerainGeneration\ProceduralToolkit\Shaders\Specular Vertex Color.shader" />
-     <None Include="Assets\Digger\Shaders\Mesh\Standard\NoTextureArray\MeshTriplanarStandard.cginc" />
-     <None Include="Assets\Digger\Shaders\Mesh\LWRP\DiggerLWRPMeshLit-Pass3.shader" />
-     <None Include="Assets\Digger\Shaders\Mesh\URP\DiggerURPMeshLit-Pass3.shader" />
-     <None Include="Assets\Digger\Shaders\Mesh\URP\DiggerURPMeshLit-Pass0.shader" />
      <None Include="Assets\TerainGeneration\ProceduralToolkit\Shaders\Unlit Vertex Color.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Printing.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Management.Instrumentation.xml" />
@@ -251,71 +189,45 @@
      <None Include="Assets\TerainGeneration\ProceduralToolkit\Examples\CharacterGenerator\names.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Runtime.Remoting.xml" />
-     <None Include="Assets\Digger\Shaders\Terrain\LWRP\DiggerLWRPTerrainLitAdd.shader" />
-     <None Include="Assets\Digger\Shaders\Mesh\Standard\WithTextureArray\Mesh-Pass0.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Xml.Linq.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Utilities.v3.5.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Conversion.v3.5.xml" />
-     <None Include="Assets\Digger\Shaders\Terrain\LWRP\DiggerLWRPTerrainLitInput.hlsl" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Management.xml" />
-     <None Include="Assets\Digger\Shaders\Mesh\Standard\NoTextureArray\Mesh-Pass0.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Configuration.xml" />
      <None Include="Assets\TerainGeneration\ProceduralToolkit\Shaders\Debug\Debug UV1.shader" />
-     <None Include="Assets\Digger\Shaders\Terrain\Standard\TerrainSplatmapCuttableTriplanar.cginc" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Messaging.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.AddIn.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Linq.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\Digger\Shaders\Mesh\HDRP\DiggerTerrainLitTemplate.hlsl" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.DynamicData.Design.xml" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-     <None Include="Assets\Digger\Shaders\Terrain\URP\DiggerURPTerrainLit.shader" />
      <None Include="Assets\TerainGeneration\ProceduralToolkit\Shaders\Debug\Debug Tangents.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.DynamicData.xml" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceProcess.xml" />
-     <None Include="Assets\Digger\Shaders\Terrain\URP\DiggerURPTerrainLitMetaPass.hlsl" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\Digger\Shaders\Terrain\LWRP\DiggerLWRPTerrainLitMetaPass.hlsl" />
-     <None Include="Assets\Digger\Shaders\Terrain\HDRP\DiggerTerrainLit.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\Digger\Shaders\Mesh\LWRP\DiggerLWRPMeshLit-Pass1.shader" />
-     <None Include="Assets\Digger\Shaders\Terrain\URP\DiggerURPTerrainLitAdd.shader" />
-     <None Include="Assets\Digger\Shaders\Mesh\HDRP\DiggerTerrainLit_Splatmap.hlsl" />
-     <None Include="Assets\Digger\Shaders\Mesh\URP\DiggerURPMeshLitInput.hlsl" />
-     <None Include="Assets\Digger\Shaders\Terrain\LWRP\DiggerLWRPTerrainLit.shader" />
-     <None Include="Assets\Digger\Shaders\Terrain\Standard\Cuttable-Triplanar-Base.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.EnterpriseServices.xml" />
-     <None Include="Assets\Digger\Shaders\Terrain\HDRP\DiggerTerrainLitTemplate.hlsl" />
-     <None Include="Assets\Digger\Shaders\Terrain\URP\DiggerURPTerrainLitInput.hlsl" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.IdentityModel.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.VisualC.STLCLR.xml" />
-     <None Include="Assets\Digger\README.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TerainGeneration\ProceduralToolkit\Shaders\Gradient Skybox.shader" />
-     <None Include="Assets\Digger\Shaders\Mesh\Standard\NoTextureArray\Mesh-Pass2.shader" />
-     <None Include="Assets\Digger\Shaders\Terrain\Standard\Cuttable-Triplanar-FirstPass.shader" />
-     <None Include="Assets\Digger\Shaders\Mesh\Standard\NoTextureArray\Mesh-Pass1.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.xml" />
      <None Include="Assets\TerainGeneration\ProceduralToolkit\Shaders\Debug\Debug Bitangents.shader" />
-     <None Include="Assets\Digger\Shaders\Mesh\LWRP\DiggerLWRPMeshLit-Pass0.shader" />
      <None Include="Assets\TerainGeneration\ProceduralToolkit\Examples\CharacterGenerator\Sprites\license.txt" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Deployment.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Transactions.xml" />
      <None Include="Assets\Ludiq\Assemblies\YamlDotNet.dll" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Windows.Forms.xml" />
      <None Include="Assets\TerainGeneration\ProceduralToolkit\Shaders\Debug\Debug UV2.shader" />
-     <None Include="Assets\Digger\Shaders\Mesh\LWRP\DiggerLWRPMeshLitPasses.hlsl" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Services.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.DataSetExtensions.xml" />
-     <None Include="Assets\Digger\Shaders\Mesh\Standard\NoTextureArray\Mesh-Pass3.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Runtime.Serialization.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Services.xml" />
-     <None Include="Assets\Digger\Shaders\Terrain\HDRP\DiggerTerrainLitData.hlsl" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.WorkflowServices.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TerainGeneration\ProceduralToolkit\Shaders\Diffuse Vertex Color.shader" />
@@ -326,25 +238,19 @@
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Runtime.Serialization.Formatters.Soap.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Entity.xml" />
-     <None Include="Assets\Digger\Shaders\Terrain\URP\DiggerURPTerrainLitPasses.hlsl" />
      <None Include="Assets\TerainGeneration\ProceduralToolkit\Shaders\Debug\Debug Normals.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ComponentModel.DataAnnotations.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Abstractions.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Entity.xml" />
-     <None Include="Assets\Digger\Shaders\Terrain\LWRP\DiggerLWRPTerrainLitPasses.hlsl" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Drawing.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Net.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.SqlXml.xml" />
      <None Include="Assets\Ludiq\Assemblies\YamlDotNet.xml" />
-     <None Include="Assets\Digger\Shaders\Mesh\Standard\WithTextureArray\Mesh-Pass1.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.xml" />
-     <None Include="Assets\Digger\Shaders\Terrain\Standard\Cuttable-Triplanar-BaseGen.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Windows.Presentation.xml" />
-     <None Include="Assets\Digger\Shaders\Mesh\HDRP\DiggerTerrainLitData.hlsl" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Xml.xml" />
-     <None Include="Assets\Digger\Shaders\Terrain\LWRP\DiggerLWRPTerrainLitBase.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\2021.1.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -567,11 +473,29 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\2021.1.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.0.0-pre.5\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.4.3\Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.5.4\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.5.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.5.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.5.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="YamlDotNet">
       <HintPath>Assets\Ludiq\Assemblies\YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.5.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\2021.1.7f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -918,6 +842,9 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\2021.1.7f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Netcode.Components">
+      <HintPath>Library\ScriptAssemblies\Unity.Netcode.Components.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -945,11 +872,20 @@
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Netcode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Netcode.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Netcode.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Netcode.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
@@ -959,21 +895,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="NativeCollections.csproj">
-      <Project>{B6F85952-3CA1-6373-8E02-0E9E5FEE27A8}</Project>
-      <Name>NativeCollections</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{DCE39D34-209F-2B9D-E71D-27CC7549355B}</Project>
-      <Name>NavMeshComponentsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unsafe.csproj">
-      <Project>{25AF9575-C46F-3A3A-FFCC-20CAFD8AA964}</Project>
-      <Name>Unsafe</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{E28D507D-EE56-E132-7928-16283F7CCED3}</Project>
-      <Name>NavMeshComponents</Name>
+    <ProjectReference Include="Bootstrap.csproj">
+      <Project>{9168D874-BE40-D7ED-D604-E7758107B1CE}</Project>
+      <Name>Bootstrap</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

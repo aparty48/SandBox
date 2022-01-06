@@ -63,10 +63,10 @@ public class GenerateMesh : MonoBehaviour {
                 int index4 = index0 + 4;
                 int index5 = index0 + 5;
 
-                float height11 = GetHeight(x + 1, z + 1, xSegments, zSegments, noiseOffset, noiseScale) * (1.5f - (-1.5f)) + (-1.5f);
-                float height00 = GetHeight(x + 0, z + 0, xSegments, zSegments, noiseOffset, noiseScale) * (1.5f - (-1.5f)) + (-1.5f);
-                float height01 = GetHeight(x + 0, z + 1, xSegments, zSegments, noiseOffset, noiseScale) * (1.5f - (-1.5f)) + (-1.5f);
-                float height10 = GetHeight(x + 1, z + 0, xSegments, zSegments, noiseOffset, noiseScale) * (1.5f - (-1.5f)) + (-1.5f);
+                float height11 = ((GetHeight(x + 1, z + 1, xSegments, zSegments, noiseOffset, noiseScale) + GetHeight(x + 1, z + 1, xSegments, zSegments, noiseOffset, noiseScale / 10) * ((0.9f - (-0.9f)) + (-0.9f)) + GetHeight(x + 1, z + 1, xSegments, zSegments, noiseOffset, noiseScale / 0.3f)) / 3) * (1.5f - (-1.5f)) + (-1.5f);
+                float height00 = ((GetHeight(x + 0, z + 0, xSegments, zSegments, noiseOffset, noiseScale) + GetHeight(x + 0, z + 0, xSegments, zSegments, noiseOffset, noiseScale / 10) * ((0.9f - (-0.9f)) + (-0.9f)) + GetHeight(x + 0, z + 0, xSegments, zSegments, noiseOffset, noiseScale / 0.3f)) / 3) * (1.5f - (-1.5f)) + (-1.5f);
+                float height01 = ((GetHeight(x + 0, z + 1, xSegments, zSegments, noiseOffset, noiseScale) + GetHeight(x + 0, z + 1, xSegments, zSegments, noiseOffset, noiseScale / 10) * ((0.9f - (-0.9f)) + (-0.9f)) + GetHeight(x + 0, z + 1, xSegments, zSegments, noiseOffset, noiseScale / 0.3f)) / 3) * (1.5f - (-1.5f)) + (-1.5f);
+                float height10 = ((GetHeight(x + 1, z + 0, xSegments, zSegments, noiseOffset, noiseScale) + GetHeight(x + 1, z + 0, xSegments, zSegments, noiseOffset, noiseScale / 10) * ((0.9f - (-0.9f)) + (-0.9f)) + GetHeight(x + 1, z + 0, xSegments, zSegments, noiseOffset, noiseScale / 0.3f)) / 3) * (1.5f - (-1.5f)) + (-1.5f);
 
                 Vector3 vertex00 = new Vector3((x + 0) * xStep, height00 * terrainSize.y , (z + 0) * zStep);
                 Vector3 vertex01 = new Vector3((x + 0) * xStep, height01 * terrainSize.y , (z + 1) * zStep);
