@@ -41,7 +41,6 @@ public class Generatorworlda : MonoBehaviour
         GenerateSeeds();
         //tc.seed = (int)seeds[curentPlanet];
         //tc.InitialLoad();
-        TestGenerate();
 
         createdWorld=true;
 

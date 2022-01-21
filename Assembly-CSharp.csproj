@@ -82,6 +82,7 @@
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\GizmosE.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Common\ConfiguratorBase.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\ProceduralFacadePanels.cs" />
+    <Compile Include="Assets\Scripts\mini script\OnMultiplayer.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Draw.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\ChairGenerator\ChairGeneratorConfigurator.cs" />
     <Compile Include="Assets\TerainGeneration\MoveForward.cs" />
@@ -120,6 +121,7 @@
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\IFacadePanel.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\ChairGenerator\Armrests.cs" />
     <Compile Include="Assets\Scripts\Jump.cs" />
+    <Compile Include="Assets\Scripts\Client.cs" />
     <Compile Include="Assets\Scripts\Pad.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Common\SliderControl.cs" />
     <Compile Include="Assets\Scripts\UIScript.cs" />
@@ -139,6 +141,7 @@
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\Sphere.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Common\SkyBoxGenerator.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\CharacterGenerator\NameGenerator.cs" />
+    <Compile Include="Assets\Scripts\Tanks\Main.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Primitives\Spheroid.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\Common\CameraRotator.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\BuildingGenerator.cs" />
@@ -151,6 +154,7 @@
     <Compile Include="Assets\Scripts\Chat.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\BuildingGenerator\HorizontalLayout.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\CellularAutomaton\CellularAutomaton.cs" />
+    <Compile Include="Assets\Scripts\NetEngie\NetEngie.cs" />
     <Compile Include="Assets\Scripts\Cashe.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\MeshPrimitives.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\LowPolyTerrainGenerator\LowPolyTerrainGenerator.cs" />
@@ -158,7 +162,7 @@
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\DebugE.cs" />
     <Compile Include="Assets\Scripts\DataBase.cs" />
     <Compile Include="Assets\TerainGeneration\ProceduralToolkit\Examples\ChairGenerator\Stretchers.cs" />
-    <Compile Include="Assets\Scripts\Tanks\Main.cs" />
+    <Compile Include="Assets\Scripts\Net\HostGame.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
@@ -473,29 +477,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\2021.1.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@1.0.0-pre.5\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.5.4\Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.5.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.5.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.5.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.4.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="YamlDotNet">
       <HintPath>Assets\Ludiq\Assemblies\YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.5.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\2021.1.7f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -842,9 +828,6 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\2021.1.7f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Netcode.Components">
-      <HintPath>Library\ScriptAssemblies\Unity.Netcode.Components.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -872,20 +855,11 @@
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Collections">
-      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Netcode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Netcode.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Netcode.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Netcode.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
@@ -895,10 +869,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Bootstrap.csproj">
-      <Project>{9168D874-BE40-D7ED-D604-E7758107B1CE}</Project>
-      <Name>Bootstrap</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

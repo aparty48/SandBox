@@ -1,0 +1,4 @@
+#Thu Jan 20 20:32:04 EET 2022
+base.0=E\:\\Nikiti\\GitHub\\SandBox\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

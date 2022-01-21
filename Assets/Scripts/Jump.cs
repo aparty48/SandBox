@@ -38,21 +38,25 @@ public class Jump : MonoBehaviour
     }
 
     private void JumpL(){
-        if (Input.GetAxis("Jump")> 0 || jmp>0f)
-            if (_isGrounded) _rb.AddForce(Vector3.up*jumForse);
-    }
-    private void OnCollisionEnter(Collision collision) { IsGroundedUpdate(collision, true); }
-    private void OnCollisionExit(Collision collision) { IsGroundedUpdate(collision, false); }
-    private void IsGroundedUpdate(Collision collision,bool value){if(collision.gameObject.tag ==("Ground")){ _isGrounded = value; } }//проверка земли и ограничение на один прижок
-    private bool _isGrounded1
-    {
-        get {
-            var bottomCenterPoint = new Vector3(_collider.bounds.center.x, _collider.bounds.min.y, _collider.bounds.center.z);
-            //создаем невидимую физическую капсулу и проверяем не пересекает ли она обьект который относится к полу
-            //_collider.bounds.size.x / 2 * 0.9f -- эта странная конструкция берет радиус обьекта.
-            // был бы обязательно сферой -- брался бы радиус напрямую, а так пишем по-универсальнее
-            return Physics.CheckCapsule(_collider.bounds.center, bottomCenterPoint, _collider.bounds.size.x / 2 * 0.5f, GroundLayer);
-            // если можно будет прыгать в воздухе, то нужно будет изменить коэфициент 0.9 на меньший.
+        if (Input.GetAxis("Jump") > 0 || jmp > 0f)
+        {
+            Ray ray = new Ray(transform.position, Vector3.down);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, 2)) _rb.AddForce(Vector3.up*jumForse);
         }
     }
+    //private void OnCollisionEnter(Collision collision) { IsGroundedUpdate(collision, true); }
+    //private void OnCollisionExit(Collision collision) { IsGroundedUpdate(collision, false); }
+    //private void IsGroundedUpdate(Collision collision,bool value){if(collision.gameObject.tag ==("Ground")){ _isGrounded = value; } }//проверка земли и ограничение на один прижок
+    //private bool _isGrounded
+    //{
+    //    get {
+    //        var bottomCenterPoint = new Vector3(_collider.bounds.center.x, _collider.bounds.min.y, _collider.bounds.center.z);
+    //        //создаем невидимую физическую капсулу и проверяем не пересекает ли она обьект который относится к полу
+    //        //_collider.bounds.size.x / 2 * 0.9f -- эта странная конструкция берет радиус обьекта.
+    //        // был бы обязательно сферой -- брался бы радиус напрямую, а так пишем по-универсальнее
+    //        return Physics.CheckCapsule(_collider.bounds.center, bottomCenterPoint, _collider.bounds.size.x / 2 * 0.5f, GroundLayer);
+    //        // если можно будет прыгать в воздухе, то нужно будет изменить коэфициент 0.9 на меньший.
+    //    }
+    //}
 }

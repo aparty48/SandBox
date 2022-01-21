@@ -1,37 +1,41 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Console : MonoBehaviour
 {
     public Pad pad;
+    public Text textConsole;
+    public GameObject textGameobject;
+    public GameObject contentGM;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public string Send(string command)
+    public string SendCommand(string command)
 	{
-        string[] comm = { "sandbox", "survival" };
-        int comn = 0;
+        string[] commands = { "sandbox", "survival" };
+        int comnumber = 0;
         string parametrs = "";
         if(command != null)
 		{
             return "Not input command";
 		}
-        for(int i = 0;i<comm.Length; i++)
+        for(int i = 0;i<commands.Length; i++)
 		{
-            if(command.IndexOf(comm[i]) == 0)
+            if(command.IndexOf(commands[i]) == 0)
             {
-                comn = i;
+                comnumber = i;
 				for(int j = 0; j<command.Length; j++)
                 {
                     if(command.Substring(j,j+1)==" ")
@@ -42,7 +46,7 @@ public class Console : MonoBehaviour
                 }
             }
 		}
-        switch(comn)
+        switch(comnumber)
 		{
             case 0:
                 pad.prog(0);
@@ -51,6 +55,14 @@ public class Console : MonoBehaviour
                 pad.prog(1);
                 break;
 		}
+    Debug.Log(command);
         return "";
 	}
+  public void CommandStart(InputField input)
+  {
+    SendCommand(input.text);
+    //Instantiate(textConsole,new Vector3(0, 0, 0),new Quaternion(0, 0, 0, 0),contentGM);
+    textConsole.text += input.text + "\n";
+    input.text = "";
+  }
 }

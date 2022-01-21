@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637736274353841184
-    m_Hash: 1045282572
+      ticks: 637772536912253120
+    m_Hash: 1300260652
   m_LockFileStatus:
     m_FilePath: E:/Nikiti/GitHub/SandBox/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637736274355410723
-    m_Hash: 1744815201
+      ticks: 637772538858089333
+    m_Hash: 179007468
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,178 @@ m_LocalPackages:
 m_ProjectPath: E:/Nikiti/GitHub/SandBox/Packages
 m_EditorVersion: 2021.1.7f1 (d91830b65d9b)
 m_ResolvedPackages:
+- packageId: com.unity.burst@1.4.3
+  testable: 0
+  isDirectDependency: 1
+  version: 1.4.3
+  source: 1
+  resolvedPath: E:\Nikiti\GitHub\SandBox\Library\PackageCache\com.unity.burst@1.4.3
+  assetPath: Packages/com.unity.burst
+  name: com.unity.burst
+  displayName: Burst
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Burst is a compiler that translates from IL/.NET bytecode to highly
+    optimized native code using LLVM.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.2.4-preview.5
+    - 0.2.4-preview.7
+    - 0.2.4-preview.11
+    - 0.2.4-preview.12
+    - 0.2.4-preview.13
+    - 0.2.4-preview.14
+    - 0.2.4-preview.15
+    - 0.2.4-preview.16
+    - 0.2.4-preview.17
+    - 0.2.4-preview.18
+    - 0.2.4-preview.19
+    - 0.2.4-preview.20
+    - 0.2.4-preview.21
+    - 0.2.4-preview.22
+    - 0.2.4-preview.23
+    - 0.2.4-preview.24
+    - 0.2.4-preview.25
+    - 0.2.4-preview.30
+    - 0.2.4-preview.31
+    - 0.2.4-preview.33
+    - 0.2.4-preview.34
+    - 0.2.4-preview.37
+    - 0.2.4-preview.41
+    - 0.2.4-preview.45
+    - 0.2.4-preview.48
+    - 0.2.4-preview.50
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3-preview.3
+    - 1.2.0-preview.1
+    - 1.2.0-preview.5
+    - 1.2.0-preview.6
+    - 1.2.0-preview.8
+    - 1.2.0-preview.9
+    - 1.2.0-preview.10
+    - 1.2.0-preview.11
+    - 1.2.0-preview.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.3.0-preview.1
+    - 1.3.0-preview.2
+    - 1.3.0-preview.3
+    - 1.3.0-preview.4
+    - 1.3.0-preview.5
+    - 1.3.0-preview.6
+    - 1.3.0-preview.7
+    - 1.3.0-preview.8
+    - 1.3.0-preview.9
+    - 1.3.0-preview.10
+    - 1.3.0-preview.11
+    - 1.3.0-preview.12
+    - 1.3.0-preview.13
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0-pre.1
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0-preview.3
+    - 1.4.0-preview.4
+    - 1.4.0-preview.5
+    - 1.4.1-pre.1
+    - 1.4.1-pre.2
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4-preview.1
+    - 1.4.4-preview.2
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.4.9
+    - 1.4.11
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0-pre.5
+    - 1.5.0
+    - 1.5.1
+    - 1.5.2
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6-preview.1
+    - 1.5.6
+    - 1.6.0-pre.2
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.7.0-pre.1
+    compatible:
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6-preview.1
+    - 1.5.6
+    - 1.6.0-pre.2
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.7.0-pre.1
+    verified: 1.5.6
+  dependencies:
+  - name: com.unity.mathematics
+    version: 1.2.1
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.2.1
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637429549540000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/burst.git
+    revision: 13436f12dab9e8c0f9827d684b1f86bc7ae3270c
+    path: 
+  unityLifecycle:
+    version: 1.5.3
+    nextVersion: 
 - packageId: com.unity.collab-proxy@1.3.9
   testable: 0
   isDirectDependency: 1
@@ -73,8 +245,10 @@ m_ResolvedPackages:
     - 1.13.5
     - 1.14.1
     - 1.14.4
+    - 1.14.7
     - 1.15.1
     - 1.15.4
+    - 1.15.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -99,8 +273,10 @@ m_ResolvedPackages:
     - 1.13.5
     - 1.14.1
     - 1.14.4
+    - 1.14.7
     - 1.15.1
     - 1.15.4
+    - 1.15.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -195,10 +371,12 @@ m_ResolvedPackages:
     - 3.0.5
     - 3.0.6
     - 3.0.7
+    - 3.0.9
     compatible:
     - 3.0.6
     - 3.0.7
-    verified: 3.0.7
+    - 3.0.9
+    verified: 3.0.9
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -442,88 +620,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.1
-    nextVersion: 
-- packageId: com.unity.netcode.gameobjects@1.0.0-pre.3
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0-pre.3
-  source: 1
-  resolvedPath: E:\Nikiti\GitHub\SandBox\Library\PackageCache\com.unity.netcode.gameobjects@1.0.0-pre.3
-  assetPath: Packages/com.unity.netcode.gameobjects
-  name: com.unity.netcode.gameobjects
-  displayName: Netcode for GameObjects
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Netcode for GameObjects is a high-level netcode SDK that provides
-    networking capabilities to GameObject/MonoBehaviour workflows within Unity and
-    sits on top of underlying transport layer.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0-pre.2
-    - 1.0.0-pre.3
-    compatible:
-    - 1.0.0-pre.2
-    - 1.0.0-pre.3
-    verified: 
-  dependencies:
-  - name: com.unity.modules.ai
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.10.1
-  - name: com.unity.collections
-    version: 1.0.0-pre.5
-  resolvedDependencies:
-  - name: com.unity.modules.ai
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.10.1
-  - name: com.unity.collections
-    version: 1.0.0-pre.5
-  - name: com.unity.burst
-    version: 1.5.4
-  - name: com.unity.mathematics
-    version: 1.2.1
-  - name: com.unity.test-framework
-    version: 1.1.24
-  - name: com.unity.ext.nunit
-    version: 1.0.6
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637714818860000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.netcode.gameobjects.git
-    revision: 3e4df72dadeea8bd622da2824e30541910c79d3d
-    path: 
-  unityLifecycle:
-    version: 
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.24
   testable: 0
@@ -2903,398 +2999,4 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.6
-    nextVersion: 
-- packageId: com.unity.nuget.mono-cecil@1.10.1
-  testable: 0
-  isDirectDependency: 0
-  version: 1.10.1
-  source: 1
-  resolvedPath: E:\Nikiti\GitHub\SandBox\Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1
-  assetPath: Packages/com.unity.nuget.mono-cecil
-  name: com.unity.nuget.mono-cecil
-  displayName: Mono Cecil
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: 'The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
-
-
-    This
-    package is intended for internal Unity use only. Most Unity users will be better
-    suite using the existing community tooling.
-
-    To avoid assembly clashes, please
-    use this package if you intend to use Mono.Cecil.'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.1.6-preview.2
-    - 1.0.0-preview.1
-    - 1.10.0-preview.1
-    - 1.10.1-preview.1
-    - 1.10.1
-    - 1.10.2
-    compatible:
-    - 0.1.6-preview.2
-    - 1.0.0-preview.1
-    - 1.10.0-preview.1
-    - 1.10.1-preview.1
-    - 1.10.1
-    - 1.10.2
-    verified: 
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637437477070000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.mono-cecil.git
-    revision: c1b254abc76d079830441168142797a454b48735
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-- packageId: com.unity.collections@1.0.0-pre.5
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.0-pre.5
-  source: 1
-  resolvedPath: E:\Nikiti\GitHub\SandBox\Library\PackageCache\com.unity.collections@1.0.0-pre.5
-  assetPath: Packages/com.unity.collections
-  name: com.unity.collections
-  displayName: Collections
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: A C# collections library providing data structures that can be used
-    in jobs, and optimized by Burst compiler.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.0.9-preview.1
-    - 0.0.9-preview.2
-    - 0.0.9-preview.3
-    - 0.0.9-preview.4
-    - 0.0.9-preview.5
-    - 0.0.9-preview.6
-    - 0.0.9-preview.7
-    - 0.0.9-preview.8
-    - 0.0.9-preview.9
-    - 0.0.9-preview.10
-    - 0.0.9-preview.11
-    - 0.0.9-preview.12
-    - 0.0.9-preview.13
-    - 0.0.9-preview.14
-    - 0.0.9-preview.15
-    - 0.0.9-preview.16
-    - 0.0.9-preview.17
-    - 0.0.9-preview.18
-    - 0.0.9-preview.19
-    - 0.0.9-preview.20
-    - 0.1.0-preview
-    - 0.1.1-preview
-    - 0.2.0-preview.13
-    - 0.3.0-preview.0
-    - 0.4.0-preview.6
-    - 0.5.0-preview.9
-    - 0.5.1-preview.11
-    - 0.5.2-preview.8
-    - 0.6.0-preview.9
-    - 0.7.0-preview.2
-    - 0.7.1-preview.3
-    - 0.8.0-preview.5
-    - 0.9.0-preview.5
-    - 0.9.0-preview.6
-    - 0.11.0-preview.17
-    - 0.12.0-preview.13
-    - 0.14.0-preview.16
-    - 0.15.0-preview.21
-    - 0.17.0-preview.18
-    - 1.0.0-pre.3
-    - 1.0.0-pre.5
-    - 1.0.0-pre.6
-    - 1.1.0
-    compatible:
-    - 0.0.9-preview.1
-    - 0.0.9-preview.2
-    - 0.0.9-preview.3
-    - 0.0.9-preview.4
-    - 0.0.9-preview.5
-    - 0.0.9-preview.6
-    - 0.0.9-preview.7
-    - 0.0.9-preview.8
-    - 0.0.9-preview.9
-    - 0.0.9-preview.10
-    - 0.0.9-preview.11
-    - 0.0.9-preview.12
-    - 0.0.9-preview.13
-    - 0.0.9-preview.14
-    - 0.0.9-preview.15
-    - 0.0.9-preview.16
-    - 0.0.9-preview.17
-    - 0.0.9-preview.18
-    - 0.0.9-preview.19
-    - 0.0.9-preview.20
-    - 0.1.0-preview
-    - 0.1.1-preview
-    - 0.2.0-preview.13
-    - 0.3.0-preview.0
-    - 0.4.0-preview.6
-    - 0.5.0-preview.9
-    - 0.5.1-preview.11
-    - 0.5.2-preview.8
-    - 0.6.0-preview.9
-    - 0.7.0-preview.2
-    - 0.7.1-preview.3
-    - 0.8.0-preview.5
-    - 0.9.0-preview.5
-    - 0.9.0-preview.6
-    - 0.11.0-preview.17
-    - 0.12.0-preview.13
-    - 0.14.0-preview.16
-    - 0.15.0-preview.21
-    - 0.17.0-preview.18
-    - 1.0.0-pre.3
-    - 1.0.0-pre.5
-    - 1.0.0-pre.6
-    - 1.1.0
-    verified: 
-  dependencies:
-  - name: com.unity.burst
-    version: 1.5.4
-  - name: com.unity.test-framework
-    version: 1.1.22
-  resolvedDependencies:
-  - name: com.unity.burst
-    version: 1.5.4
-  - name: com.unity.mathematics
-    version: 1.2.1
-  - name: com.unity.test-framework
-    version: 1.1.24
-  - name: com.unity.ext.nunit
-    version: 1.0.6
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords:
-  - dots
-  - collections
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637653241630000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/dots.git
-    revision: 7ccff6592fefb3ff74fc8d4dc12e727b7f7e6152
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-- packageId: com.unity.burst@1.5.4
-  testable: 0
-  isDirectDependency: 1
-  version: 1.5.4
-  source: 1
-  resolvedPath: E:\Nikiti\GitHub\SandBox\Library\PackageCache\com.unity.burst@1.5.4
-  assetPath: Packages/com.unity.burst
-  name: com.unity.burst
-  displayName: Burst
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Burst is a compiler that translates from IL/.NET bytecode to highly
-    optimized native code using LLVM.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.2.4-preview.5
-    - 0.2.4-preview.7
-    - 0.2.4-preview.11
-    - 0.2.4-preview.12
-    - 0.2.4-preview.13
-    - 0.2.4-preview.14
-    - 0.2.4-preview.15
-    - 0.2.4-preview.16
-    - 0.2.4-preview.17
-    - 0.2.4-preview.18
-    - 0.2.4-preview.19
-    - 0.2.4-preview.20
-    - 0.2.4-preview.21
-    - 0.2.4-preview.22
-    - 0.2.4-preview.23
-    - 0.2.4-preview.24
-    - 0.2.4-preview.25
-    - 0.2.4-preview.30
-    - 0.2.4-preview.31
-    - 0.2.4-preview.33
-    - 0.2.4-preview.34
-    - 0.2.4-preview.37
-    - 0.2.4-preview.41
-    - 0.2.4-preview.45
-    - 0.2.4-preview.48
-    - 0.2.4-preview.50
-    - 1.1.0-preview.2
-    - 1.1.0-preview.3
-    - 1.1.0-preview.4
-    - 1.1.1
-    - 1.1.2
-    - 1.1.3-preview.3
-    - 1.2.0-preview.1
-    - 1.2.0-preview.5
-    - 1.2.0-preview.6
-    - 1.2.0-preview.8
-    - 1.2.0-preview.9
-    - 1.2.0-preview.10
-    - 1.2.0-preview.11
-    - 1.2.0-preview.12
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.3.0-preview.1
-    - 1.3.0-preview.2
-    - 1.3.0-preview.3
-    - 1.3.0-preview.4
-    - 1.3.0-preview.5
-    - 1.3.0-preview.6
-    - 1.3.0-preview.7
-    - 1.3.0-preview.8
-    - 1.3.0-preview.9
-    - 1.3.0-preview.10
-    - 1.3.0-preview.11
-    - 1.3.0-preview.12
-    - 1.3.0-preview.13
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.6
-    - 1.3.7
-    - 1.3.8
-    - 1.3.9
-    - 1.4.0-pre.1
-    - 1.4.0-preview.1
-    - 1.4.0-preview.2
-    - 1.4.0-preview.3
-    - 1.4.0-preview.4
-    - 1.4.0-preview.5
-    - 1.4.1-pre.1
-    - 1.4.1-pre.2
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4-preview.1
-    - 1.4.4-preview.2
-    - 1.4.4
-    - 1.4.5
-    - 1.4.6
-    - 1.4.7
-    - 1.4.8
-    - 1.4.9
-    - 1.4.11
-    - 1.5.0-pre.3
-    - 1.5.0-pre.4
-    - 1.5.0-pre.5
-    - 1.5.0
-    - 1.5.1
-    - 1.5.2
-    - 1.5.3
-    - 1.5.4
-    - 1.5.5
-    - 1.5.6-preview.1
-    - 1.5.6
-    - 1.6.0-pre.2
-    - 1.6.0-pre.3
-    - 1.6.0-pre.4
-    - 1.6.0
-    - 1.6.1
-    - 1.6.2
-    - 1.6.3
-    - 1.7.0-pre.1
-    compatible:
-    - 1.5.3
-    - 1.5.4
-    - 1.5.5
-    - 1.5.6-preview.1
-    - 1.5.6
-    - 1.6.0-pre.2
-    - 1.6.0-pre.3
-    - 1.6.0-pre.4
-    - 1.6.0
-    - 1.6.1
-    - 1.6.2
-    - 1.6.3
-    - 1.7.0-pre.1
-    verified: 1.5.6
-  dependencies:
-  - name: com.unity.mathematics
-    version: 1.2.1
-  resolvedDependencies:
-  - name: com.unity.mathematics
-    version: 1.2.1
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637568919480000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: 1253fdbbb9980df52e2be5de1e0c0ffe54a1dcbf
-    path: 
-  unityLifecycle:
-    version: 1.5.3
     nextVersion: 

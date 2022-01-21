@@ -369,7 +369,17 @@ public class Inventar : MonoBehaviour
         {
             si = 9;
         }
-
+        for(int i = 0; i<10; i++)
+        {
+            if(i == si)
+            {
+                hbi[i].GetComponent<Image>().color = Color.gray;
+            }
+            else
+            {
+                hbi[i].GetComponent<Image>().color = Color.white;
+            }
+        }
         //Debug.Log(si);
     }
 }

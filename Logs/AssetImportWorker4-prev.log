@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'ru' Physical Memory: 2924 MB
+OS: 'Windows 10 Pro; OS build 19043.1466; Version 2009; 64bit' Language: 'ru' Physical Memory: 2924 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ E:/Nikiti/GitHub/SandBox
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-51922
+54896
 Successfully changed project path to: E:/Nikiti/GitHub/SandBox
 E:/Nikiti/GitHub/SandBox
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 97.11 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 130.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,26 +35,63 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004915 seconds.
+Registered in 0.004857 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 94.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 113.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.781 seconds
+- Completed reload, in  3.720 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008896 seconds.
-Required property 'name' not set (Assets/Digger/NativeCollections/NativeCollections.asmdef)
+Registered in 0.002786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.434 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.85 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.6 MB.
+System memory in use after: 111.7 MB.
 
-Required property 'name' not set (Assets/Digger/Unsafe/Unsafe.asmdef)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2042.
+Total: 5.946000 ms (FindLiveObjects: 0.403500 ms CreateObjectMapping: 0.125400 ms MarkObjects: 5.347200 ms  DeleteObjects: 0.065600 ms)
 
-Required property 'name' not set (Assets/Digger/NativeCollections/Tests/Tests.asmdef)
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/sand.unity
+  artifactKey: Guid(1541349b279435c458a0b03aca1d771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/sand.unity using Guid(1541349b279435c458a0b03aca1d771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d753a72abe44ac9c53e7039e4519f9') in 0.312564 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002950 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.848 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.4 MB.
+System memory in use after: 108.5 MB.
 
-Required property 'name' not set (Assets/Digger/Sources/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2045.
+Total: 8.537600 ms (FindLiveObjects: 0.551700 ms CreateObjectMapping: 0.192800 ms MarkObjects: 7.707800 ms  DeleteObjects: 0.079300 ms)
 
-Required property 'name' not set (Assets/Digger/Sources/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000

@@ -102,6 +102,9 @@ public class UIScript : MonoBehaviour{
     private Rigidbody _rb;//rigidbody игрока
     private RigidbodyConstraints rbc;
 
+    public int hp = 100;
+    public GameObject menuAddServerg;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -129,6 +132,7 @@ public class UIScript : MonoBehaviour{
     // Update is called once per frame
     private void Update()
     {
+        if (!padOpen ) {if(!inoe){
         if (Input.GetKeyDown(KeyCode.T)) MenuTransF();//кнопка для меню транспорта
         if (Input.GetKeyDown(KeyCode.Escape)) Pause();//кнопка для паузи
         if (Input.GetKeyDown(KeyCode.E)) EnventarBo();//кнопка для инвинтаря
@@ -137,12 +141,13 @@ public class UIScript : MonoBehaviour{
         if (Input.GetKeyDown(KeyCode.Y)) Cursor.lockState=CursorLockMode.None;//включаем курсор
 
         bool w, leftctrl;
-        w=(Input.GetKey(KeyCode.W) ? true : false);
+        w = (Input.GetKey(KeyCode.W) ? true : false);
         leftctrl = (Input.GetKey(KeyCode.LeftControl) ? true : false);
         if (w && leftctrl) speedPlayer = speedRunPlayer;
         else speedPlayer = normalSpeedPlayer;
 
         if (Input.GetKeyDown(KeyCode.F)) flye = !flye;
+        }}
   	}
     private void levoe()
     {
