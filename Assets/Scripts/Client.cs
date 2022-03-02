@@ -32,24 +32,26 @@ public class Client : MonoBehaviour
 
     public void StartClient(IPAddress ip, int port)
     {
-        NetEngie.Client.SetServer(ip, port);
-        NetEngie.Client.Start();
+        //start client
         Task.Factory.StartNew(()=>{
-            Byte[] bytef = new Byte[512];
+            Byte[] bytef = new Byte[51200];
             int bytes = 0;
-            while(NetEngie.Client.isClient)
+            while(/*if client started*/false)
             {
-                bytes = NetEngie.Client.Read(bytef);
+                //prinyaty danie ot servera
                 if(bytes == 0)
                 {
                     continue;
                 }
-                WorkRead(Encoding.UTF8.GetString(bytef, 0, bytes));
+                //obrabotaty ih
+                //WorkRead(Encoding.UTF8.GetString(bytef, 0, bytes));
             }
         });
     }
     private void WorkRead(string a)
     {
+        //obrabotka poluchenih danih
+      /*
         switch(a)
         {
             case "s.":
@@ -144,7 +146,7 @@ public class Client : MonoBehaviour
             {
                 SetOrCreatPlayer(nicksPlayers,posPlayers,rotyPlayers);
             }
-        }
+        }*/
     }
 
 

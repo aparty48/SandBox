@@ -132,7 +132,7 @@ public class UIScript : MonoBehaviour{
     // Update is called once per frame
     private void Update()
     {
-        if (!padOpen ) {if(!inoe){
+        /*if (!padOpen ) {if(!inoe){
         if (Input.GetKeyDown(KeyCode.T)) MenuTransF();//кнопка для меню транспорта
         if (Input.GetKeyDown(KeyCode.Escape)) Pause();//кнопка для паузи
         if (Input.GetKeyDown(KeyCode.E)) EnventarBo();//кнопка для инвинтаря
@@ -147,7 +147,7 @@ public class UIScript : MonoBehaviour{
         else speedPlayer = normalSpeedPlayer;
 
         if (Input.GetKeyDown(KeyCode.F)) flye = !flye;
-        }}
+        }}*/
   	}
     private void levoe()
     {

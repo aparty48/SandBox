@@ -48,6 +48,7 @@ namespace NetEngie
         }
         public static void Stop()
         {
+            ishost = false;
             server.Stop();
         }
         public static void SetData(IPAddress ip, int port)

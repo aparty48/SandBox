@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 public class HostGame : MonoBehaviour
 {
-    private List<TcpClient> clients = new List<TcpClient>();
+    private List<Sockets> clients = new List<Sockets>();
     private List<SClient> sclients = new List<SClient>();
     private TcpClient client;
     public bool ConsoleApp = false;
@@ -24,59 +24,39 @@ public class HostGame : MonoBehaviour
 
     public void StartHostOnButton()
     {
-        string a = "127.10.11.11";
-        StartHost(IPAddress.Parse(a),1234);
+        //start server on click button
+        //string a = "127.10.11.11";
+        //StartHost(IPAddress.Parse(a),1234);
     }
     // Update is called once per frame
     private void Update()
     {
-        GetLocalPlayerData();
+        //GetLocalPlayerData();
     }
 
     public void StartHost(IPAddress ip, int port)
     {
-        NetEngie.Host.SetData(ip,port);
-        NetEngie.Host.Start();
+        //start server
         Task.Factory.StartNew(()=>
         {
-            while(NetEngie.Host.ishost)
+            while(/*if server started*/false)
             {
-                client = NetEngie.Host.server.AcceptTcpClient();
-                clients.Add(client);
-                GetInfoClients(client);
+                //obrabotka clienta
                 Task.Delay(10).Wait();
             }
         });
-        isHost = NetEngie.Host.ishost;
+
         Task.Factory.StartNew(()=>
         {
-            while(NetEngie.Host.ishost)
+            while(/*if server started*/false)
             {
-                for(int i = 0; i<clients.Count;i++)
-                {
-                    if(!clients[i].Connected)
-                    {
-                        for(int j = 0; j < sclients.Count; j++)
-                        {
-                            if(sclients[j].tcpclent == clients[i])
-                            {
-                                sclients.RemoveAt(j);
-                                break;
-                            }
-                            else
-                            {
-                                continue;
-                            }
-                        }
-                        if(clients[i] != null)
-                        {
-                            clients[i].Close();
-                            clients.RemoveAt(i);
-                        }
+                //ochistka clientov kotorie disconect
 
-                    }
-                }
 
+
+
+                //otpravity posicii igroku kotorogo igroki v ego zone
+                /*
                 int[] countPlayerOfRange = new int[sclients.Count];
                 int counterArray = 0;
                 Vector3[] pospl = new Vector3[sclients.Count];
@@ -108,7 +88,7 @@ public class HostGame : MonoBehaviour
                     NetworkStream stream = sclients[i].tcpclent.GetStream();
                     stream.Write(Encoding.UTF8.GetBytes(outputdata), 0, Encoding.UTF8.GetBytes(outputdata).Length);
                     stream.Close();
-                }
+                }*/
 
                 Task.Delay(10).Wait();
             }
@@ -118,19 +98,14 @@ public class HostGame : MonoBehaviour
 
     public void Stop()
     {
-        NetEngie.Host.Stop();
-        isHost = false;
-        for (int i = 0; i<clients.Count; i++)
-        {
-            if(clients[i] != null)
-                clients[i].Close();
-            clients.Clear();
-        }
+        //stop server
     }
 
 
-    public void GetInfoClients(TcpClient c)
+    public void GetInfoClients()
     {
+      //poluchenie danih igroca
+      /*
         string a;
         a = "s.";
         string h = "s.d";
@@ -182,7 +157,7 @@ public class HostGame : MonoBehaviour
             sclients.Add(new SClient(){tcpclent = cln, nick = b, id = s, inventary = null});
             return true;
         }
-        return false;
+        return false;*/
     }
 
 
