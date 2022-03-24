@@ -332,6 +332,7 @@
 "Assets/Scripts/Jump.cs"
 "Assets/Scripts/load.cs"
 "Assets/Scripts/mainmenu.cs"
+"Assets/Scripts/MessageUI.cs"
 "Assets/Scripts/mini script/clickZoneScript.cs"
 "Assets/Scripts/mini script/clk.cs"
 "Assets/Scripts/mini script/Drop.cs"

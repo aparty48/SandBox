@@ -282,9 +282,7 @@ public class Inventar : MonoBehaviour
 
     public void MoveObject()//предмет следуещий за крсором
     {
-      Vector3 pos = Input.mousePosition + offset;//получаем позицию курсора плюс смещение предмета
-      pos.z = InventoryMainObject.GetComponent<RectTransform>().position.z;//позиция пердмета следуещего за курсосром равняеться суме позиции курсора и смещения
-      movingObject.position = cam.ScreenToWorldPoint(pos);//позиция пердмета следуещего за курсосром равняеться суме позиции курсора и смещения
+        movingObject.position = new Vector2(Input.mousePosition.x,Input.mousePosition.y);//cam.ScreenToWorldPoint(pos);//позиция пердмета следуещего за курсосром равняеться суме позиции курсора и смещения
     }
 
     public ItemInventory CopyInventoryItem(ItemInventory old)//копирование предмета
@@ -352,13 +350,11 @@ public class Inventar : MonoBehaviour
         if (Input.GetAxis("Mouse ScrollWheel") < 0)
         {
             si++;
-            selectItem = si;
             //Debug.Log(si);
         }
         if (Input.GetAxis("Mouse ScrollWheel") > 0)
         {
             si--;
-            selectItem = si;
             ///Debug.Log(si);
         }
         if (si > 9)
@@ -369,15 +365,16 @@ public class Inventar : MonoBehaviour
         {
             si = 9;
         }
+        selectItem = si;
         for(int i = 0; i<10; i++)
         {
             if(i == si)
             {
-                hbi[i].GetComponent<Image>().color = Color.gray;
+                hbi[i].GetComponent<Image>().color = Color.white;
             }
             else
             {
-                hbi[i].GetComponent<Image>().color = Color.white;
+                hbi[i].GetComponent<Image>().color = Color.gray;
             }
         }
         //Debug.Log(si);

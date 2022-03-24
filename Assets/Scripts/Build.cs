@@ -17,12 +17,14 @@ public class Build : MonoBehaviour
     bool moznoStroit = false;
     int tci = 0;
 
+    int idselectblock = 0;
+
 
     // Start is called before the first frame update
     void Start()
     {
         blockCount=Dbb.blocks.Count;
-        ////GeneratorWorldPlock(-50,0,-50,100,100,Dbb.blocks[13].prefabBlock);
+        //GeneratorWorldPlock(-50,0,-50,100,100,Dbb.blocks[13].prefabBlock);
         //InvokeRepeating("time",0.0f,0.01f);
     }
 
@@ -104,25 +106,23 @@ public class Build : MonoBehaviour
                     return manCam.ScreenPointToRay(pointSc);//возращяем путь
                     //return new Ray(manCam.transform.position, plas.transform.forward);
                 }
-                if (Physics.Raycast(ray, out hit))//пускаем луч и пверям на столкновение
+                if (Physics.Raycast(ray, out hit,10f))//пускаем луч и пверям на столкновение
                 {
-                    if (hit.collider.gameObject != null && hit.collider.gameObject.layer != 9 && hit.collider.gameObject.name.Length>=5)//проверка на обьекти
+                    if (hit.collider.gameObject != null && hit.collider.gameObject.layer != 9 )//проверка на обьекти
                     {
                       if(inventr.items[inventr.si].id == 14){//если айди выбраного предмета 14
                       string blokname = hit.collider.gameObject.name;//получаем имя обьекта в который попал луч
-                      for(int i = 0;i<10;i++)//цыкл
+                      /*for(int i = 0;i<10;i++)//цыкл
                       {
-
-                        if(blokname.Substring(0,1)=="0")//если выбраный символ ноль
-                        {
-                          blokname=blokname.Remove(0,1);//уаляем его
-                        }
-                        else
-                        {
-                          break;//нет заканчиваем стерать нули
-                        }
-                      }
-                        //Debug.Log(blokname);
+                          if(blokname.Substring(0,1)=="0")//если выбраный символ ноль
+                          {
+                            blokname=blokname.Remove(0,1);//уаляем его
+                          }
+                          else
+                          {
+                            break;//нет заканчиваем стерать нули
+                          }
+*/                        //Debug.Log(blokname);
                         inventr.SearchForSameItem(Dbb.items[int.Parse(blokname)],1);//добавляем игроку блок
                         Destroy(hit.collider.gameObject);//уничтожаем обьект
                     }
@@ -132,7 +132,9 @@ public class Build : MonoBehaviour
                       {
                           inventr.items[inventr.si].count-=1;//забераем блок из инвентаря
                           //устанавливаем выыбраный блок
+
                           GameObject obj2 = Instantiate(SelectBlockForInventory(), convertVector(posBlockPos(new Vector3(0, 0, 0),true)), new Quaternion(0, 0, 0, 0), worldBuild.transform);
+                          obj2.name = idselectblock.ToString();
                       }
                     }
                   }
@@ -155,14 +157,14 @@ public class Build : MonoBehaviour
                   return manCam.ScreenPointToRay(pointSc);
                   //return new Ray(manCam.transform.position, plas.transform.forward);
               }
-              if (Physics.Raycast(ray, out hit))
+              if (Physics.Raycast(ray, out hit,10f))
               {
                   if (hit.collider.gameObject != null && hit.collider.gameObject.layer != 9)
                   {
                       if(inventr.items[inventr.si].id == 14)
                       {
                           string blokname = hit.collider.gameObject.name;
-                          for(int i = 0;i<10;i++)
+                          /*for(int i = 0;i<10;i++)
                           {
                               if(blokname.Substring(0,1)=="0")
                               {
@@ -172,7 +174,7 @@ public class Build : MonoBehaviour
                               {
                                   break;
                               }
-                          }
+                          }*/
                           //Debug.Log(blokname);
                           inventr.SearchForSameItem(Dbb.items[int.Parse(blokname)],1);
                           Destroy(hit.collider.gameObject);
@@ -183,6 +185,7 @@ public class Build : MonoBehaviour
                           {
                               inventr.items[inventr.si].count-=1;
                               GameObject obj2 = Instantiate(SelectBlockForInventory(), convertVector(posBlockPos(new Vector3(0, 0, 0),true)), new Quaternion(0, 0, 0, 0), worldBuild.transform);
+                              obj2.name = idselectblock.ToString();
                           }
                       }
                   }
@@ -213,6 +216,7 @@ public class Build : MonoBehaviour
         {
             if(Dbb.blocks[i].idItemBlock == inventr.items[inventr.selectItem].id)//если выбрный блок и блок из базы совпали
             {
+                idselectblock = Dbb.blocks[i].idItemBlock;
                 return Dbb.blocks[i].prefabBlock;//возращяем обьект блока
             }
         }

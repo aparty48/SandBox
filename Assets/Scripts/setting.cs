@@ -29,7 +29,7 @@ public class setting : MonoBehaviour
     {
         set
         {
-            SaveSetting.chustvitelnost = Chustvitelnost;
+            SaveSetting.chustvitelnost = value;
         }
         get
         {

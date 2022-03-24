@@ -52,25 +52,33 @@ public class mainmenu : MonoBehaviour
     }
 
     // Update is called once per frame
+    private void Update()
+    {
+        canvasMultiplayer.SetActive(uisc.gsMenuMultiplayer);
+        btnminmenu.SetActive(!uisc.gsMenuMultiplayer);
+        worldMenu.gameObject.SetActive(uisc.gsMenuWorld);
+        btnminmenu.SetActive(!uisc.gsMenuWorld);
+    }
 
     public void PlayButtonTanks()
     {
         SceneManager.LoadScene("Scene/Tanks");
     }
-    public void playBtnOn()
+    public void playBtnOn(bool a)
     {
-
-      uisc.inoe = !uisc.inoe;
-        worldMenu.gameObject.SetActive(uisc.inoe);
-        btnminmenu.SetActive(!uisc.inoe);
-        LoadListWorld();
+        if(uisc.nonemenu||a)
+        {
+            uisc.WorldMenu();
+            LoadListWorld();
+        }
     }
-    public void MultiplayerMenu()
+    public void MultiplayerMenu(bool a)
     {
-        uisc.inoe = !uisc.inoe;
-        canvasMultiplayer.SetActive(uisc.inoe);
-        btnminmenu.SetActive(!uisc.inoe);
-        LoadListSever();
+        if(uisc.nonemenu ||a)
+        {
+            uisc.MultyplayerMenu();
+            LoadListSever();
+        }
     }
     List<ServerInfo> servinf = new List<ServerInfo>();
     public void LoadListSever()
@@ -145,7 +153,7 @@ public class mainmenu : MonoBehaviour
 
     private void ConnectToServer(int a)
     {
-        MultiplayerMenu();
+        MultiplayerMenu(true);
         clientss.StartClient(servers[a].ip, servers[a].port);
     }
 
@@ -224,7 +232,7 @@ public class mainmenu : MonoBehaviour
         }
         gn.seed = seed;
         gn.Generate();
-        uisc.inoe = false;
+        playBtnOn(true);
         loadWorldList = false;
     }
     public void LoadListWorld()

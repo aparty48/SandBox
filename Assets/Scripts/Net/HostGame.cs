@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 public class HostGame : MonoBehaviour
 {
-    private List<Sockets> clients = new List<Sockets>();
+    private List<Socket> clients = new List<Socket>();
     private List<SClient> sclients = new List<SClient>();
     private TcpClient client;
     public bool ConsoleApp = false;

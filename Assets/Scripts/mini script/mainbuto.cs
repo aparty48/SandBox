@@ -20,7 +20,7 @@ public class mainbuto : MonoBehaviour
     }
     void OnMouseDown()
     {
-      mn.playBtnOn();
-        
+      mn.playBtnOn(true);
+
     }
 }

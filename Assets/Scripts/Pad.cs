@@ -14,14 +14,7 @@ public class Pad : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(uisc.padOpen == true)
-		{
-
-		}
-		else
-		{
-            
-		}
+        
     }
     public void prog(int comm)
 	{

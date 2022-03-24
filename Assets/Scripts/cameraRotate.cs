@@ -23,10 +23,10 @@ public class cameraRotate : MonoBehaviour
     {
         if(uis.nonemenu==true)
         {
-          if(PcD){RotCAmera();}
+          
 
         }
-        sprotcam = (uis.chustvitelnost / 180) * 160;//расщет скорости поворотакамери с учетом чуствительности
+        //расщет скорости поворотакамери с учетом чуствительности
     }
 
     public void Swipe()
@@ -35,7 +35,7 @@ public class cameraRotate : MonoBehaviour
         {
             // GET TOUCH 0
             Touch touch0;
-            if (uis.tsb == true)
+            if (true)
             {
                 touch0 = Input.GetTouch(1);
 
@@ -64,12 +64,5 @@ public class cameraRotate : MonoBehaviour
 
     }
 
-    private void RotCAmera()
-    {
-       var yr=Input.GetAxis("Mouse X")*sprotcam*Time.fixedDeltaTime;//получаем 1 или -1 когда двигаться мишь по оси x
-       var xr=-Input.GetAxis("Mouse Y")*sprotcam*Time.fixedDeltaTime;//получаем 1 или -1 когда двигаться мишь по оси y
-       manCam.transform.rotation *= Quaternion.Euler(xr,0.0f,0.0f);//меняем поворот камери по оси х
-       uis.player.transform.rotation *= Quaternion.Euler(0.0f,yr,0.0f);//меняем поворот всего игрока по оси у
-    }
 
 }

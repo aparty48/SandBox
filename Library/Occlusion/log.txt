@@ -1,0 +1,4 @@
+[20:20:56] INFO: Umbra 3 Optimizer version 3.3.22  (build: aa99894236119ba2e0eac5ca04d0133b3067a375)
+[20:20:57] INFO: T: 20 O: 5 H: 0.25 B: 100
+[20:21:01] INFO: Tile grid 400x8x400 (at -200,-4,-200) created for scene: 20000 tiles (0 empties not included) in 4.164 seconds
+[20:21:01] DEBUG: Total allocations 211074, peak 77057 (size 23 MB 282 kB 641 B)
